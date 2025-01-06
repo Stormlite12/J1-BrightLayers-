@@ -1,11 +1,14 @@
-import Navbar from "../Components/Navbar.jsx";
-import home1 from "../assets/home1.png";
+import Navbar from '../components/Navbar.jsx';
+import home1 from '../assets/home1.jpg';
 import image from "../assets/image.png";
 import rectangleMobile from "../assets/rectangleMobile.png";
 import rectangle from '../assets/rectangle.png'
 import DropDown from '../functions/DropDown.jsx'
-import { AnimatedLogo } from "../functions/AnimatedLogo.jsx";
+import {AnimatedLogo}  from '../functions/AnimatedLogo.jsx';
 import ContactForm from '../pages/ContactForm.jsx'
+import Features from '../components/Features.jsx';
+import PeopleSaying from '../components/PeopleSaying.jsx';
+import InfiniteCarousel from '../components/InfiniteCarousel.jsx';
 
 function Home() {
   return (
@@ -166,8 +169,18 @@ function Home() {
               </div>
       </div>    
 
+      <div>
+        <Features />
+      </div>
 
 
+      <div>
+        <PeopleSaying />
+      </div>
+
+      <div>
+        <InfiniteCarousel />
+      </div>
 
       </div>
   );
