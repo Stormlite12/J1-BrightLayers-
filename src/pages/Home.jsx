@@ -49,7 +49,7 @@ function Home() {
 
       <div
         className="w-full mt-[6.43rem] lg:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] lg:mb-[5.79rem] xl:mb-[6.51rem]
-       flex"
+       flex justify-end"
       >
         <img
           src={home1}
@@ -237,11 +237,9 @@ function Home() {
         </div>
 
     
-         <BlogSpot/>
+        <BlogSpot/>
 
-     
         <Footer/>
-      
         
       </div>
     </div>
