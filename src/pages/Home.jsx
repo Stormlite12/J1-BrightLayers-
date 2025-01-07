@@ -9,7 +9,7 @@ import ContactForm from "../pages/ContactForm.jsx";
 import Features from "../components/Features.jsx";
 import PeopleSaying from "../components/PeopleSaying.jsx";
 import InfiniteCarousel from "../components/InfiniteCarousel.jsx";
-// import founderImg from '../assets/founderImg.png'
+import founderImg from '../assets/founderImg.png'
 import FeaturesPC from '../components/FeaturesPC.jsx';
 import founderImgMobile from "../assets/founderMobile.png";
 import BlogSpot from "../components/BlogSpot.jsx";
@@ -205,34 +205,53 @@ function Home() {
         Meet Our Founder
       </div>
 
-      <div className="flex flex-col justify-center items-center">
-        <div className="w-full h-[14.51863rem] mt-[3.11rem]">
+      <div className="flex flex-col md:flex-row justify-center mt-[3.11rem] md:mt-[6.56rem] md:mr-[20rem] ">
+        <div className="w-full md:max-w-[23.06481rem] ">
           <img
-            className="object-fill w-full h-full"
+            className="object-fill w-full h-auto md:hidden mx-auto"
             src={founderImgMobile}
             alt=""
           />
-        </div>
-
-        <div>
-          <p className="mt-[2.57rem] mb-[0.48rem] font-pSans w-[9.80406rem] h-[1.39294rem] text-[1.25369rem] font-semibold leading-[1.24119rem] tracking-[-0.01256rem]">
-            Pooja Bhadoriya
-          </p>
-          <p className="w-[9.05406rem] h-[1.01794rem] font-title text-[0.64288rem] font-normal leading-normal text-center">
-            Founder & Creative Director
-          </p>
-
-          <p className="hidden">
-          {`"`}Oh also, she&apos;s really excited to meet you, fellow business-owner.{`"`}
-          </p>
-
+          <img
+            className="object-fill h-auto hidden md:block"
+          src={founderImg} alt="" />
         </div>
 
 
+        <div className="md:flex flex-col justify-between md:space-y-[5rem] h-auto md:ml-[1.5rem] xl:ml-[2.5rem] md:mr-[3rem] xl:mr-[6rem] mx-auto md:mx-0">
+            <div className="h-auto">
+            <p className="mt-[2.57rem] mb-[0.48rem] font-pSans font-semibold 
+            w-[9.80406rem] h-[1.39294rem] text-[1.25369rem] leading-[1.24119rem] tracking-[-0.01256rem]
+            md:w-[11.94444rem] md:h-[4.58331rem] md:text-[2.22225rem] md:leading-[2.2rem] md:tracking-[-0.02225rem]
+             xl:w-[13.4375rem] xl:h-[5.15625rem] xl:text-[2.5rem] xl:leading-[2.475rem] xl:tracking-[-0.025rem]">
+              Pooja Bhadoriya
+            </p>
+            <p className="w-[9.05406rem] h-[1.01794rem] font-title 
+            text-[0.64288rem] font-normal leading-normal text-center md:text-left
+            md:w-[12.36113rem] md:h-[1.80556rem] md:text-[0.83331rem]
+            xl:w-[13.90625rem] xl:h-[2.03125rem] xl:text-[0.9375rem]">
+              Founder & Creative Director
+            </p>
+            </div>
+          
+            <div>
+            <p className="hidden text-[#546660] md:block font-normal
+            lg:w-[12.36113rem] lg:h-[7.36113rem] lg:text-[1.26819rem]  lg:leading-[1.65163rem] lg:tracking-[0.01269rem]
+            xl:w-[13.90625rem] xl:h-[8.28125rem] xl:text-[0.9375rem]  xl:leading-[1.85813rem] xl:tracking-[0.01425rem]">
+            {`"`}Oh also, she&apos;s really excited to meet you, fellow business-owner.{`"`}
+            </p>
+            </div>
+         
+        </div>
 
-        <div className="w-[19.98319rem] h-[14.68rem] mt-[1.82rem]">
 
-            <div className=" w-[19.98319rem] h-[10.28625rem] font-title text-[0.69644rem] font-normal leading-[1.02381rem] tracking-[0.00694rem]">
+
+        <div className="w-[19.98319rem] h-[14.68rem] mt-[1.82rem] mx-auto md:mx-0">
+
+            <div className=" w-[19.98319rem] h-[10.28625rem] font-title text-[0.69644rem] font-normal leading-[1.02381rem] tracking-[0.00694rem]
+            md:w-[30.50013rem] md:h-[24.15rem] md:text-[1rem] md:leading-[1.47006rem] md:tracking-[0.01rem]
+            lg:w-[37.50013rem] lg:h-[24.15rem] lg:text-[1.365rem] lg:leading-[1.87006rem] lg:tracking-[0.01363rem]
+            xl:w-[45rem] xl:h-[28.97994rem] xl:text-[1.638rem] xl:leading-[2.24406rem] xl:tracking-[0.01638rem]">
               Full time overthinker and part time Founder, Pooja launched The Bright
               Layers in 2019 as a tribute to her experience of working in social
               media - be it as a designer, writer, creative director, or just as a
@@ -241,17 +260,15 @@ function Home() {
               passion that fuels a brand. Her goal is to bring that passion to the
               forefront, and to make businesses feel more human.
             </div>
-            <div className="ml-auto text-[#546660] text-[0.71544rem] w-[11.572rem] h-[2.30369rem] font-normal leading-[0.93181rem] tracking-[0.00713rem] ">
+            <div className="ml-auto md:hidden text-[#546660] text-[0.71544rem] w-[11.572rem] h-[2.30369rem] font-normal leading-[0.93181rem] tracking-[0.00713rem] ">
             {`"`}Oh also, she&apos;s really excited to meet you, fellow business-owner.{`"`}
             </div>
-        </div>
-
-    
-        <BlogSpot/>
-
-        <Footer/>
-        
+        </div>   
       </div>
+
+      <BlogSpot/>
+
+      <Footer/>
     </div>
   );
 }
