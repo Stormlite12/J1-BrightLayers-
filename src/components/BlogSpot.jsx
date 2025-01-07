@@ -10,7 +10,7 @@ function BlogSpot() {
 
     <div className='mx-[1.23rem] max-w-[90%] mt-[6.91rem]'>
             <p className="mx-auto text-center font-pSans  w-[14.94719rem] h-[1.12506rem] font-semibold text-[0.96431rem] leading-[1.13794rem] tracking-[0.00963rem]">Blog</p>
-            <div className='m-auto flex justify-between mt-[2.57rem] space-x-[1.75rem] overflow-auto   '>
+            <div className='m-auto flex justify-between mt-[2.57rem] space-x-[1.75rem] overflow-x-scroll no-scrollbar scroll-smooth    '>
                 <div className='w-[12.84888rem] h-[12.363rem]'>
                     <div className='relative '>
                         <img src={rectangle188} alt="dummyImg3" className='w-[20.5rem] h-[12.363rem] opacity-80 bg-black transition-opacity duration-700 hover:opacity-0'/>
