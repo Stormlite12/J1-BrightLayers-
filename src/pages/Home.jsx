@@ -1,4 +1,4 @@
-import Navbar from '../components/Navbar.jsx';
+import Navbar from '../Components/Navbar.jsx';
 import home1 from '../assets/home1.jpg';
 import image from "../assets/image.png";
 import rectangleMobile from "../assets/rectangleMobile.png";
@@ -17,47 +17,43 @@ function Home() {
         <Navbar />
       </div>
 
-      <section className="flex w-full justify-center">
-        <div className="w-[20.25rem] h-[7.75rem] md:w-[50.28125rem] md:h-[22.125rem] text-center mb-[7rem]">
-          <span className="text-[#303338] md:text-[2.4375rem] text-[0.97463rem] font-semibold md:font-medium font-pSans md:leading-[4.0563rem] leading-[1.59831rem] md:tracking-[0.03438rem] tracking-[0.00975rem]">
+      <section className="flex w-full justify-center lg:mt-[6.94rem]">
+        <div className="w-[20.25rem] h-[7.75rem] lg:w-[56.25rem] lg:h-[16.38888rem] text-center mb-[7rem]">
+          <span className="text-[#303338] lg:text-[2.54631rem] text-[0.97463rem] font-semibold lg:font-medium font-pSans lg:leading-[3.00463rem] leading-[1.59831rem] lg:tracking-[0.02544rem] tracking-[0.00975rem]">
             We are Bright Layers, a dynamic social media agency since 2019,
             dedicated to elevating brands through creative content and strategic
             digital marketing
           </span>
-          <span className="text-[#303338] md:text-[2.4375rem] text-[0.97463rem] font-semibold md:font-medium font-pSans md:leading-[4.0563rem] leading-[1.59831rem] md:tracking-[0.03438rem] tracking-[0.00975rem]">
+          <span className="text-[#303338] lg:text-[2.4375rem] text-[0.97463rem] font-semibold lg:font-medium font-pSans lg:leading-[3.00463rem] leading-[1.59831rem] lg:tracking-[0.02544rem] tracking-[0.00975rem]">
             {" "}
           </span>
-          <span className="text-[#303338] md:text-[2.4375rem] text-[0.97463rem] font-semibold md:font-medium font-pSans md:leading-[4.0563rem] leading-[1.59831rem] md:tracking-[0.03438rem] tracking-[0.00975rem]">
+          <span className="text-[#303338] lg:text-[2.4375rem] text-[0.97463rem] font-semibold lg:font-medium font-pSans lg:leading-[3.00463rem] leading-[1.59831rem] lg:tracking-[0.02544rem] tracking-[0.00975rem]">
             ツ
           </span>
         </div>
       </section>
 
-      <div className="max-w-[80rem] ">
+      <div className="max-w-[80rem] lg:mt-[7.69rem] ">
         <img
           src={home1}
           alt=""
-          className="w-[21.29731rem] h-[6rem] float-right mb-[4.7rem]"
+          className="lg:w-[60rem] lg:h-[10.27775rem] w-[21.29731rem] h-[6rem] float-right lg:mb-[8.19rem] mb-[4.7rem]"
         />
       </div>
 
       <div className="w-full md:h-[20.25rem] flex flex-col justify-center items-center">
         <div
-          className="w-[13.0625rem] h-[1.1875rem] md:w-[53.938rem] md:h-[1.188rem] text-center md:text-left  text-[#da5428] 
-                          md:text-[1.5625rem] text-[1rem] font-semibold font-pSans capitalize md:leading-[1.8438rem] leading-[1.18rem] md:tracking-[0.01563rem] tracking-[0.01rem] mx-auto "
+          className="max-w-[80rem] w-[13.0625rem] h-[1.1875rem] text-center text-[1rem]   
+                                   md:w-[15.87963rem] md:h-[1.89813rem] md:text-left md:text-[1.5625rem]
+                          text-[#da5428] font-semibold font-pSans capitalize md:leading-[1.36575rem] leading-[1.18rem] md:tracking-[0.01156rem] tracking-[0.01rem] mx-auto "
         >
           What Do We Do?
         </div>
 
         <div
-          className="w-[20.625rem] h-[13.8125rem] md:w-[53.9375rem] md:h-[22.75rem]
-                          text-[#535353] md:text-[1.5625rem] 
-                            md:font-medium font-title md:leading-[2.03494rem] 
-                            md:tracking-[0.01563rem] md:text-left  md:mt-4
-
-                            text-center
-                            items-center text-[0.77269rem] font-semibold
-                            leading-[1.00631rem] tracking-[0.00775rem] mt-[1.71rem]"
+          className="max-w-[80rem] w-[20.625rem] h-[13.8125rem] md:w-[39.95369rem] md:h-[16.85188rem] text-[#535353] text-center         
+                    md:text-[1.15744rem] md:font-medium font-title md:leading-[1.50738rem] md:tracking-[0.01156rem] md:text-left md:mt-4
+                    text-[0.77269rem] font-semibold leading-[1.00631rem] tracking-[0.00775rem] mt-[1.71rem]"
         >
           In the last 5 years, the country has seen trendsetting marketing
           campaigns — but what&apos;s missing is &quot;the beyonds&quot; of a
@@ -71,30 +67,30 @@ function Home() {
           that works exclusively for you.
         </div>
 
-        <div className="flex justify-end">
+        <div className="w-[1280px] flex justify-end ">
           <a
             href="#examples"
-            className=" w-[9.4375rem] h-[1.8125rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 md:block hidden"
+            className="md:w-[6.99075rem] md:h-[1.34256rem] w-[9.4375rem] h-[1.8125rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 md:block hidden"
           >
             check examples
           </a>
         </div>
       </div>
 
-      <div className="max-w-[80rem] mb-[5.18rem] mt-[4.7rem] md:mt-40">
+      <div className="max-w-[80rem] md:w-[60rem] md:h-[10.27775rem] w-[21.8047rem] h-[5.76138rem] md:mt-[11.85rem] mt-[4.7rem]">
         <img
           src={image}
           alt="assets"
-          className="md:w-full md:h-[10.875rem]  w-[21.125rem] h-[5.76138rem] float-left md:mb-[10rem]"
+          className=" float-left"
         />
       </div>
 
-      <div className="w-full md:h-[20.25rem] flex flex-col justify-center items-center">
+      <div className="w-full flex flex-col justify-center items-center md:mt-[8.19rem] mt-[5.06rem]">
         <div
-          className="md:text-left text-center md:w-[53.938rem] md:h-[1.188rem] text-[#da5428] 
-                        md:text-[1.5625rem] font-semibold font-pSans capitalize md:leading-[1.8438rem] md:tracking-tight mx-auto
+          className="md:text-left text-center md:w-[15.87963rem] md:h-[1.89813rem] text-[#da5428] 
+                        md:text-[1.15744rem] font-semibold font-pSans capitalize md:leading-[1.36575rem] md:tracking-[0.01156rem] mx-auto
                         
-                        w-[13.0625rem] h-[1.1875rem] text-[1rem] leading-[1.18rem] tracking-[0.01rem] mt-[5.18rem] "
+                        w-[13.0625rem] h-[1.1875rem] text-[1rem] leading-[1.18rem] tracking-[0.01rem]  "
         >
           How Do We Do It?
         </div>
@@ -113,7 +109,7 @@ function Home() {
           to build genuine partnerships.
         </div>
 
-        <div className="flex justify-end">
+        <div className="max-w-[80rem] flex justify-end">
           <a
             href="#examples"
             className="w-[9.4375rem] h-[9.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
@@ -128,7 +124,7 @@ function Home() {
         <img src={rectangleMobile} alt="" className="w-full" />
       </div>
 
-      <div className="md:block flex flex-col items-center justify-center">
+      <div className="md:block flex flex-col items-center justify-center ">
         <div className="w-[15.996rem] h-[3.98444rem] md:text-left text-center text-[1.43756rem] font-semibold leading-[1.69631rem] tracking-[0.01438rem] md:w-[34.375rem] md:h-[8.5625rem] text-[#303338] md:text-[2.8125rem] md:font-semibold font-pSans md:leading-4 md:tracking-tight mt-20 md:mt-10 md:ml-[9.125rem]">
           Service We Provide For Your Brand
           <span className="text-[#303338] md:text-[4.125rem] md:font-medium font-pSans md:leading-[4.8675rem] md:tracking-wide">

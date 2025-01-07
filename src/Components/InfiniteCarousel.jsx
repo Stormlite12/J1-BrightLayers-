@@ -50,11 +50,6 @@ const InfiniteCarousel = () => {
     <div
       className="flex max-w-screen-xl mx-auto justify-start py-36 overflow-x-auto scroll-smooth no-scrollbar"
       ref={containerRef}
-      style={{
-        width: "89%",
-        maxWidth: "187.5rem",
-        margin: "0 auto",
-      }}
     >
       {/* Add extra padding div at the beginning */}
       <div style={{ width: cardWidth / 2 }}></div>

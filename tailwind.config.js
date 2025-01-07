@@ -5,6 +5,10 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'xl': '1440px',
+      // => @media (min-width: 1440px) { ... }
+    },
     extend: {
       fontFamily: {
         title: ["Lato"],
