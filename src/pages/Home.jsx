@@ -129,7 +129,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="md:hidden w-full h-[13.875rem] flex justify-end mt-36">
+      <div className="md:hidden w-full h-[13.875rem] flex justify-end">
         <img src={rectangleMobile} alt="" className="w-full" />
       </div>
 
