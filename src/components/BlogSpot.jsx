@@ -22,8 +22,8 @@ function BlogSpot() {
                 </div> 
                 <div className='w-[12.84888rem] h-[12.363rem]'>
                 <div className='relative'>
-                        <img src={rectangle190} alt="dummyImg3" className='w-[20.5rem] h-[12.363rem] opacity-80 bg-black transition-opacity duration-700 hover:opacity-0'/>
-                        <img src={rectangle189} alt="hoverImg2" className='w-full h-full absolute top-0 left-0 opacity-0 transition-opacity duration-700 hover:opacity-100'/>
+                        <img src={rectangle189} alt="dummyImg3" className='w-[20.5rem] h-[12.363rem] opacity-80 bg-black transition-opacity duration-700 hover:opacity-0'/>
+                        <img src={rectangle190} alt="hoverImg2" className='w-full h-full absolute top-0 left-0 opacity-0 transition-opacity duration-700 hover:opacity-100'/>
                     </div>
                     <p className='text-[0.53988rem] mt-[0.49rem] w-[12.84888rem] text-[#535353] font-title leading-[0.70313rem] tracking-[0.00538rem]'>
                     With a blend of innovation, strategy, and creativity, we
