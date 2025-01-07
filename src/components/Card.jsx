@@ -9,7 +9,7 @@ const Card = forwardRef((props, ref) => {
         <div className="w-[10.83656rem] h-[10.93075rem] text-white left-[2.6875rem] top-[2.26156rem] font-pSans text-[0.81669rem] font-light leading-[1.03719rem] tracking-[0.00819rem]">
           {props.content}
         </div>
-        <div className="w-[10.83656rem] h-[2.54425rem] absolute left-[2.6875rem] bottom-[1.19363rem]">
+        <div className="w-[10.83656rem] h-[2.54425rem] left-[2.6875rem] bottom-[1.19363rem]">
             <div className="text-white font-pSans text-[0.75388rem] font-semibold leading-[0.95738rem] tracking-[0.00756rem]">{props.name}</div>
             <div className="text-white font-pSans text-[0.691rem] font-light tracking-[0.00694rem] leading-[0.95738rem]">{props.title}</div>
         </div>
