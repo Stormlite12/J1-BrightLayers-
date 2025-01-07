@@ -11,6 +11,8 @@ import PeopleSaying from "../components/PeopleSaying.jsx";
 import InfiniteCarousel from "../components/InfiniteCarousel.jsx";
 // import founderImg from '../assets/founderImg.png'
 import founderImgMobile from "../assets/founderMobile.png";
+import BlogSpot from "../components/BlogSpot.jsx";
+import Footer from '../components/Footer.jsx'
 
 function Home() {
   return (
@@ -47,7 +49,7 @@ function Home() {
 
       <div
         className="w-full mt-[6.43rem] lg:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] lg:mb-[5.79rem] xl:mb-[6.51rem]
-       flex justify-end"
+       flex"
       >
         <img
           src={home1}
@@ -84,8 +86,15 @@ function Home() {
         </div>
       </div>
 
-      <div className="max-w-[80rem] md:w-[60rem] md:h-[10.27775rem] w-[21.8047rem] h-[5.76138rem] md:mt-[11.85rem] mt-[4.7rem]">
-        <img src={image} alt="assets" className=" float-left" />
+      <div
+        className="w-full mt-[6.43rem] lg:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] lg:mb-[5.79rem] xl:mb-[6.51rem]
+       flex justify-start"
+      >
+        <img
+          src={image}
+          alt=""
+          className="w-full h-auto max-w-[21.10825rem] lg:max-w-[60rem] xl:max-w-[67.5rem] max-h-[5.94675rem] lg:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+        />
       </div>
 
       <div className="w-full flex flex-col justify-center items-center md:mt-[8.19rem] mt-[5.06rem]">
@@ -199,7 +208,7 @@ function Home() {
           <p className="mt-[2.57rem] mb-[0.48rem] font-pSans w-[9.80406rem] h-[1.39294rem] text-[1.25369rem] font-semibold leading-[1.24119rem] tracking-[-0.01256rem]">
             Pooja Bhadoriya
           </p>
-          <p className="w-[9.05406rem] h-[1.01794rem] font-title text-[0.64288rem] font-normal leading-normal">
+          <p className="w-[9.05406rem] h-[1.01794rem] font-title text-[0.64288rem] font-normal leading-normal text-center">
             Founder & Creative Director
           </p>
 
@@ -211,7 +220,7 @@ function Home() {
 
 
 
-        <div className="w-[19.98319rem] h-[14.68rem]">
+        <div className="w-[19.98319rem] h-[14.68rem] mt-[1.82rem]">
 
             <div className=" w-[19.98319rem] h-[10.28625rem] font-title text-[0.69644rem] font-normal leading-[1.02381rem] tracking-[0.00694rem]">
               Full time overthinker and part time Founder, Pooja launched The Bright
@@ -227,15 +236,12 @@ function Home() {
             </div>
         </div>
 
-        <div className="mx-auto text-center font-pSans mt-[6.91rem] w-[14.94719rem] h-[1.12506rem] font-semibold text-[0.96431rem] leading-[1.13794rem] tracking-[0.00963rem]">
-          Blog
-        </div>
+    
+         <BlogSpot/>
 
-        <div>
-          
+        <div className="w-full">
+        <Footer/>
         </div>
-       
-
         
       </div>
     </div>

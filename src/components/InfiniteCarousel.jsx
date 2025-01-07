@@ -48,7 +48,7 @@ const InfiniteCarousel = () => {
 
   return (
     <div
-      className="flex max-w-screen-xl mx-auto justify-start py-36 overflow-x-auto scroll-smooth no-scrollbar"
+      className="flex max-w-[90%] mx-auto justify-start py-36 overflow-x-auto scroll-smooth no-scrollbar"
       ref={containerRef}
     >
       {/* Add extra padding div at the beginning */}
