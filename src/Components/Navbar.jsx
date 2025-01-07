@@ -1,5 +1,5 @@
 
-function Navbar() {
+const Navbar = () => {
     return (
       <div className="lg:flex lg:w-full justify-between items-center">          
             <svg width="228" height="14" viewBox="0 0 228 13" fill="none" xmlns="http://www.w3.org/2000/svg">
