@@ -14,7 +14,7 @@ function Home() {
   return (
     <div className="w-full h-auto bg-[#ecf0f1] z-[-1]">
       <div className="w-full h-[12rem] flex justify-center items-center md:px-20 md:justify-between ">
-        <Navbar />
+        <Navbar/>
       </div>
 
       <section className="flex w-full justify-center lg:mt-[6.94rem]">
