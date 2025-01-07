@@ -102,14 +102,21 @@ const HoverableDiv = () => {
 
   return (
     <div
-      className=" flex flex-col items-center justify-center mx-auto bg-[#ecf0f1] mt-[9.83rem]  md:mt-[21.5rem] md:w-[31.25rem] md:h-[12.5rem] w-[12.9375rem] h-[2.43594rem]"
+      className=" flex flex-col items-center justify-center mx-auto bg-[#ecf0f1] 
+      mt-[9.83rem]  md:mt-[16.99rem] md:w-[31.25rem] md:h-[12.5rem] 
+      w-[12.9375rem] h-[2.43594rem] "
       onMouseEnter={handleMouseEnter}
     >
-      <div className="text-center md:text-[3.09rem] font-semibold font-pSans md:leading-[3.6456rem] md:tracking-wide
-                      leading-[1.60169rem] tracking-[0.01356rem] text-[1.35738rem]
+      <div className="text-center  font-semibold font-pSans 
+       leading-[1.60169rem] tracking-[0.01356rem] text-[1.35738rem]
+       md:leading-[2.7315rem] md:tracking-[0.02313rem] md:text-[2.31481rem]
+       xl:leading-[3.07294rem] xl:tracking-[0.02606rem] xl:text-[2.60419rem]
+
       ">The Perfect Match!!</div>
-      <div className="text-center md:text-4xl font-medium lowercase md:leading-[2.7rem] md:tracking-tight text-[#ff8312] font-pSans
-                      text-[1.05425rem] leading-[1.24406rem] tracking-[0.01056rem]
+      <div className="text-center font-medium lowercase text-[#ff8312] font-pSans
+       text-[1.05425rem] leading-[1.24406rem] tracking-[0.01056rem]
+       md:text-[1.71294rem] md:leading-[2.02131rem] md:tracking-[0.01713rem] 
+       xl:text-[1.92706rem] xl:leading-[2.27394rem] xl:tracking-[0.01925rem]               
       ">are you the one?</div>
       <ContactForm isVisible={isFormVisible} onClose={() => setIsFormVisible(false)} />
     </div>
