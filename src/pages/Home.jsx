@@ -237,7 +237,7 @@ function Home() {
         </div>
 
     
-         {/* <BlogSpot/> */}
+         <BlogSpot/>
 
         {/* <div className="w-full">
         <Footer/>
