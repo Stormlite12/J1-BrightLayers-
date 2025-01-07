@@ -1,4 +1,4 @@
-import Navbar from '../Components/Navbar.jsx';
+import Navbar from '../components/Navbar.jsx';
 import home1 from '../assets/home1.jpg';
 import image from "../assets/image.png";
 import rectangleMobile from "../assets/rectangleMobile.png";
