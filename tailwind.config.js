@@ -10,6 +10,7 @@ export default {
       'md': '720px',
       'lg': '1024px',
       'xl': '1440px',
+      'mac': '1280px'
       // => @media (min-width: 1440px) { ... }
     },
     extend: {
@@ -21,6 +22,6 @@ export default {
       }
     },
   },
-  plugins: [],
+  plugins: [ require('tailwind-scrollbar-hide')],
 }
 

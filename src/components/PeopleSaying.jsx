@@ -12,27 +12,30 @@ function PeopleSaying() {
           What Are People Saying
         </div>
       </div>
-      <div className="mt-[2.08rem] md:mt-[6.42rem] xl:mt-[9.72rem] mx-auto">
-        <div className="flex flex-row space-x-[1.45rem] md:space-x-[12rem] w-auto ">
+      <div className="mt-[2.08rem] md:mt-[6.42rem] xl:mt-[4.72rem] mx-auto">
+        <div className="flex flex-row space-x-[1.45rem] md:space-x-[5rem] w-auto ">
           <img
             src={image26}
             alt="eurekaLogo"
             className="w-[6.01344rem] h-[3.52513rem]
-                       md:w-[12.2685rem] md:h-[6.85188rem]
+                      md:w-[7.2685rem]  md:h-[5.85188rem]
+                       lg:w-[12.2685rem] lg:h-[6.85188rem]
                        xl:w-[13.80206rem] xl:h-[7.70831rem]"
           />
           <img
             src={image25}
             alt="thamesLogo"
             className="w-[7.4245rem] h-[2.00113rem] mt-3 md:mt-6
-                       md:w-[11.85188rem] md:h-[3.19444rem]
-                       xl:w-[13.33331rem] xl:h-[3.59375rem]"
+                      md:w-[10.55188rem] md:h-[2.79444rem]
+                      lg:w-[11.85188rem] lg:h-[3.19444rem]
+                      xl:w-[13.33331rem] xl:h-[3.59375rem]"
           />
           <img
             src={image27}
             alt="tunvay"
             className="w-[4.66319rem] h-[3.75838rem] -mt-3 md:-mt-6
-                       md:w-[10.83331rem] md:h-[7.68519rem]
+                      md:w-[9.83331rem] md:h-[6.68519rem]
+                       lg:w-[10.83331rem] lg:h-[7.68519rem]
                        xl:w-[12.1875rem] xl:h-[8.64581rem]"
           />
         </div>

@@ -3,13 +3,14 @@ import group from '../assets/group.png'
  
 function Footer() {
   return (
-    <div className='bg-[#2C3E50] w-full'> 
+    <div className='bg-[#2C3E50] w-full h-[32rem] flex flex-col'>
+       
         <div className='flex flex-row space-x-[1.26rem] items-center justify-center mt-[3.86rem]'>
             <img src={logo} className='w-[4.308rem] h-[4.308rem]' alt="" />
             <img src={group} className='w-[4.18656rem] h-[3.039rem]' alt="" />
         </div>
 
-        <div className='flex flex-col space-y-[3.97rem] items-center mt-[4.05rem] text-center mb-[1.6rem]'>
+        <div className='flex flex-col space-y-[3.97rem] items-center mt-[4.05rem] text-center'>
                 <div className=''>
                         <div className="w-[5.29744rem] h-[1.229rem] text-orange-500 text-[0.75006rem] font-bold font-title leading-normal mb-[0.43rem]">Socials</div>
                         <div className="w-[5.29744rem] h-[1.229rem] text-white text-[0.64288rem] font-normal font-title leading-normal">Instagram</div>
