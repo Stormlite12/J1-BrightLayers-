@@ -42,11 +42,11 @@ function BlogSpot() {
     {posts.map((post, index) => (
         <div key={index} className="w-[12.84888rem] h-[12.14rem] lg:w-[22.03706rem] lg:h-[27.64rem]">
             <a href={post.link} target="_blank" rel="noopener noreferrer">
-            <div className="relative w-full h-[90%]">
+            <div className="relative w-full h-[83%]">
                 <img
                 src={post.firstImage || rectangle188}
                 alt="blogImg"
-                className="absolute top-0 left-0 w-full h-full opacity-80 bg-black transition-opacity duration-700 hover:opacity-0 object-cover"
+                className=" overflow-clip absolute top-0 left-0 w-full h-full opacity-80 bg-black transition-opacity duration-700 hover:opacity-0 object-cover"
                 />
                 <img
                 src={[rectangle189, rectangle190, rectangle191][index % 3]}
@@ -56,7 +56,7 @@ function BlogSpot() {
             </div>
             </a>
         <p
-          className="text-[0.53988rem] md:w-full font-normal font-title
+          className="text-[0.53988rem] md:w-full font-normal font-title overflow-visible
             mt-[0.49rem] w-[12.84888rem] text-[#535353] leading-[0.70313rem] tracking-[0.00538rem]
             lg:text-[0.92594rem] lg:leading-[1.20588rem] lg:tracking-[0.00925rem]
             xl:text-[1.04169rem] xl:leading-[1.35663rem] xl:tracking-[0.01044rem]"
