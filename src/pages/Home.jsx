@@ -133,9 +133,10 @@ function Home() {
         </div>
       </div>
 
-      <div className="lg:hidden w-full h-[13.875rem] flex ">
-        <img src={rectangleMobile} alt="" className="w-full" />
-      </div>
+      <div className="lg:hidden w-full h-auto flex">
+  <img src={rectangleMobile} alt="Mobile View" className="object-cover w-full h-full" />
+</div>
+
 
       <div className="md:block flex flex-col items-center justify-center mt-[4.77rem] md:mt-[14.26rem] md:ml-[7.55rem] xl:mt-[16.04rem] xl:ml-[8.49rem]">
         <div
