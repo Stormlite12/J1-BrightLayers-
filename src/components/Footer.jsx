@@ -18,7 +18,7 @@ function Footer() {
         </div>
 
         <div className='flex flex-col md:flex-row space-y-[7.97rem] md:space-y-0 md:space-x-[10rem] mt-[4.05rem] items-center md:items-stretch text-center md:ml-auto'>
-                <div className='w-[5.29744rem] h-[1.229rem] mac:w-[5.78706rem] mac:h-[1.34256rem] xl:w-[6.51044rem] xl:h-[1.51044rem]'>
+                <div className='w-[5.29744rem] h-[1.229rem] mac:w-[5.78706rem] mac:h-[1.34256rem] xl:w-[6.51044rem] xl:h-[1.51044rem] space-y-2'>
                         <div className="text-orange-500 text-[0.75006rem] font-bold font-title leading-normal mb-[0.43rem]">Socials</div>
                         <div className="text-white text-[0.64288rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Instagram</div>
                         <div className="text-white text-[0.64288rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Facebook</div>
@@ -26,8 +26,8 @@ function Footer() {
                         <div className="text-white text-[0.64288rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Linkedin</div>
                 </div>
 
-                <div className='w-[6.54175rem] '>
-                        <div className="mb-[0.43rem]  text-orange-500 text-[0.75006rem] font-bold font-title leading-normal">Connect With Us</div>
+                <div className='w-[6.54175rem] h-[2rem] space-y-2'>
+                        <div className="  text-orange-500 text-[0.75006rem] font-bold font-title leading-normal">Connect With Us</div>
                         <div className="  text-white text-[0.64288rem] font-normal font-title leading-normal">+91 9546898080</div>
                         <div className="  text-white text-[0.64288rem] font-normal font-title leading-normal">brightlayersmail.com</div>                
                 </div>
