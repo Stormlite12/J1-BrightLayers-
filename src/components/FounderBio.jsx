@@ -8,7 +8,7 @@ function FounderBio() {
         <div className="w-full">
           <img
             className="object-contain lg:hidden mx-auto"
-            src={founderImgMobile}
+            src={founderImg}
             alt=""
           />
           <img

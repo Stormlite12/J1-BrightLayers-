@@ -35,7 +35,7 @@ const DropdownMenu = () => {
 
   return (
     <div className="flex justify-center md:w-[32rem] ml-4 md:ml-[8.625rem] mt-10 font-title md:text-left text-center">
-      <div className="w-full space-y-[1.79rem] md:space-y-[2.45rem] xl:space-y-[2.75rem]">
+      <div className=" md:w-full space-y-[1.79rem] md:space-y-[2.45rem] xl:space-y-[2.75rem]">
         {menuItems.map((item, index) => (
           <div key={index}>
             <div className="flex md:justify-start justify-center items-center space-x-[2rem]">
