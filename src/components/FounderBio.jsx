@@ -5,9 +5,9 @@ function FounderBio() {
   return (
     <div className="flex flex-col w-full lg:max-w-[80rem] mx-auto overflow-visible">
       <div>
-        <div className="w-full">
+        <div className="relative w-full overflow-visible">
           <img
-            className="object-contain lg:hidden mx-auto"
+            className="object-cover lg:hidden mx-auto"
             src={founderImg}
             alt=""
           />
