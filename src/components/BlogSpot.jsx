@@ -38,26 +38,23 @@ function BlogSpot() {
 
 <div className='mt-[6.91rem] mx-auto mb-[10rem]'>
 <p className="mx-auto text-center font-pSans w-[14.94719rem] h-[1.12506rem] font-semibold text-[0.96431rem] leading-[1.13794rem] tracking-[0.00963rem]">Blog</p>
-<div className='max-w-[1280px] mx-auto flex items-center justify-between mt-[2.57rem] space-x-[1.75rem] overflow-x-scroll no-scrollbar scroll-smooth'>
+<div className='max-w-[1280px] mx-auto flex items-center justify-between mt-[2.57rem] space-x-[1.75rem] overflow-x-scroll no-scrollbar scroll-smooth over'>
     {posts.map((post, index) => (
-        <div
-        key={index}
-        className="w-[12.84888rem] h-[16.14rem] lg:w-[22.03706rem] lg:h-[27.64rem]"
-      >
-        <a href={post.link} target="_blank" rel="noopener noreferrer">
-          <div className="relative w-full h-full">
-            <img
-              src={post.firstImage || rectangle188}
-              alt="blogImg"
-              className="absolute top-0 left-0 w-full h-full opacity-80 bg-black transition-opacity duration-700 hover:opacity-0 object-cover"
-            />
-            <img
-              src={[rectangle189, rectangle190, rectangle191][index % 3]}
-              alt="hoverImg"
-              className="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-700 hover:opacity-100 object-cover"
-            />
-          </div>
-        </a>
+        <div key={index} className="w-[12.84888rem] h-[12.14rem] lg:w-[22.03706rem] lg:h-[27.64rem]">
+            <a href={post.link} target="_blank" rel="noopener noreferrer">
+            <div className="relative w-full h-[90%]">
+                <img
+                src={post.firstImage || rectangle188}
+                alt="blogImg"
+                className="absolute top-0 left-0 w-full h-full opacity-80 bg-black transition-opacity duration-700 hover:opacity-0 object-cover"
+                />
+                <img
+                src={[rectangle189, rectangle190, rectangle191][index % 3]}
+                alt="hoverImg"
+                className="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-700 hover:opacity-100 object-cover"
+                />
+            </div>
+            </a>
         <p
           className="text-[0.53988rem] md:w-full font-normal font-title
             mt-[0.49rem] w-[12.84888rem] text-[#535353] leading-[0.70313rem] tracking-[0.00538rem]
