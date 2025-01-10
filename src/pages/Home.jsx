@@ -24,7 +24,7 @@ function Home() {
       </div>
 
       <section className="flex w-full justify-center mt-[1.36rem] md:mt-[6.94rem] xl:mt-[7.81rem]">
-        <div className="w-[20.03675rem] h-[7.17894rem] text-center mb-[7rem]
+        <div className="w-[20.03675rem] h-[7.17894rem] text-center 
                         md:w-[56.25rem] md:h-[16.38888rem]
                         xl:w-[63.28125rem] xl:h-[18.4375rem]">
           <span
@@ -52,13 +52,13 @@ function Home() {
       </section>
 
       <div
-        className="w-full mt-[6.43rem] md:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[5.79rem] xl:mb-[6.51rem]
+        className="w-full mt-[5.43rem] md:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[5.79rem] xl:mb-[6.51rem]
        flex justify-end"
       >
         <img
           src={home1}
           alt=""
-          className="w-full h-auto max-w-[21.10825rem] md:max-w-[60rem] xl:max-w-[67.5rem] max-h-[5.94675rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+          className="w-full min-h-[5.94675rem] max-w-[21.10825rem] md:max-w-[60rem] xl:max-w-[67.5rem] max-h-[5.94675rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
         />
       </div>
 
@@ -97,7 +97,7 @@ function Home() {
         <img
           src={image}
           alt=""
-          className="w-full h-auto max-w-[21.10825rem] md:max-w-[60rem] xl:max-w-[67.5rem] max-h-[5.94675rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+          className="w-full min-h-[5.94675rem] max-w-[21.10825rem] md:max-w-[60rem] xl:max-w-[67.5rem] max-h-[5.94675rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
         />
       </div>
 
