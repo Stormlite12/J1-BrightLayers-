@@ -13,21 +13,21 @@ function PeopleSaying() {
       </div>
     </div>
     <div className="mt-[2.08rem] md:mt-[6.42rem] xl:mt-[4.72rem] mx-auto ">
-      <div className="flex flex-row space-x-[1rem] md:space-x-[5rem] justify-evenly">
+      <div className="flex flex-row md:space-x-[5rem] justify-evenly">
         <img
           src={image26}
           alt="eurekaLogo"
-          className="w-[20%] h-auto object-contain"
+          className="w-[30%] h-auto object-contain"
         />
         <img
           src={image25}
           alt="thamesLogo"
-          className="w-[25%] h-auto object-contain"
+          className="w-[30%] h-auto object-contain"
         />
         <img
           src={image27}
           alt="tunvay"
-          className="w-[20%] h-auto object-contain"
+          className="w-[30%] h-auto object-contain"
         />
       </div>
     </div>
