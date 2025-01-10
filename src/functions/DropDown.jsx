@@ -46,7 +46,7 @@ const DropdownMenu = () => {
                 {item.title}
               </span>
               <span
-                className={`transform transition-transform duration-500 cursor-pointer md:ml-0 ml-4 ${
+                className={`transform transition-transform duration-500 cursor-pointer md:ml-0 ml-2 ${
                   activeIndex === index ? "-rotate-180" : "rotate-0"
                 }`}
                 onClick={() => toggleDropdown(index)}
@@ -71,13 +71,13 @@ const DropdownMenu = () => {
               </span>
             </div>
             <div
-              className={`transition-all duration-1000 ease-in-out overflow-hidden ${
+              className={`transition-all duration-1000 ease-in-out overflow-hidden  ${
                 activeIndex === index
                   ? "max-h-[62.5rem] opacity-100"
                   : "max-h-0 opacity-0"
               }`}
             >
-              <div className="p-3 text-gray-600 text-[0.865rem] md:text-[1.25rem] font-title">
+              <div className="py-3 w-[97%] text-gray-600 text-[0.8565rem] md:text-[1.25rem] font-title">
                 <p
                   className={`transition-opacity duration-1000 ease-in-out ${
                     activeIndex === index ? "opacity-100" : "opacity-0"
