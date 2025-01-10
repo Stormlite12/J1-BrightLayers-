@@ -195,11 +195,8 @@ function Home() {
       </div>
 
         <PeopleSaying />
-    
-
-      <div>
         <InfiniteCarousel />
-      </div>
+  
 
       <div className="text-center font-pSans w-full h-[1.3125rem] text-[1.125rem] font-semibold leading-[1.3275rem] tracking-[0.01125rem]">
         Meet Our Founder
