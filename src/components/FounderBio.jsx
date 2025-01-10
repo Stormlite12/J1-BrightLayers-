@@ -41,7 +41,7 @@ function FounderBio() {
           forefront, and to make businesses feel more human.
         </p>
 
-        <p className="lg:hidden mt-[2.4375rem] w-[13.5rem] h-[2.6875rem] text-[#546660] font-family:Archivo text-[13.355px] font-normal leading-[130.238%] tracking-[0.134px] float-right">&quot;Oh also, she&apos;s really excited to meet you, fellow business-owner.&quot;</p>
+        <p className="lg:hidden mt-[2.4375rem] w-[13.5rem] h-[2.6875rem] text-[#546660] font-archivo text-[13.355px] font-normal leading-[130.238%] tracking-[0.134px] float-right">&quot;Oh also, she&apos;s really excited to meet you, fellow business-owner.&quot;</p>
       </div>
     </div>
   );
