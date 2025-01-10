@@ -35,7 +35,7 @@ const DropdownMenu = () => {
 
   return (
     <div className="flex justify-center md:w-[32rem] ml-4 md:ml-[8.625rem] mt-10 font-title md:text-left text-center">
-      <div className=" md:w-full space-y-[1.79rem] md:space-y-[2.45rem] xl:space-y-[2.75rem]">
+      <div className=" md:w-full py-2 md:py-0 space-y-[1.79rem] md:space-y-[2.45rem] xl:space-y-[2.75rem]">
         {menuItems.map((item, index) => (
           <div key={index}>
             <div className="flex md:justify-start justify-center items-center space-x-[2rem]">
@@ -77,7 +77,7 @@ const DropdownMenu = () => {
                   : "max-h-0 opacity-0"
               }`}
             >
-              <div className="p-3 text-gray-600 text-[1.25rem] font-title">
+              <div className="p-3 text-gray-600 text-[0.665rem] md:text-[1.25rem] font-title">
                 <p
                   className={`transition-opacity duration-1000 ease-in-out ${
                     activeIndex === index ? "opacity-100" : "opacity-0"
