@@ -12,8 +12,8 @@ function PeopleSaying() {
         What Are People Saying
       </div>
     </div>
-    <div className="mt-[2.08rem] md:mt-[6.42rem] xl:mt-[4.72rem] w-auto mx-auto">
-      <div className="flex flex-row space-x-[1.45rem] md:space-x-[5rem] justify-center">
+    <div className="mt-[2.08rem] md:mt-[6.42rem] xl:mt-[4.72rem] mx-auto ">
+      <div className="flex flex-row space-x-[1.45rem] md:space-x-[5rem] justify-evenly">
         <img
           src={image26}
           alt="eurekaLogo"
