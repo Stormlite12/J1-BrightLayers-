@@ -34,7 +34,7 @@ const DropdownMenu = () => {
   ];
 
   return (
-    <div className="flex justify-center mx-auto w-full md:w-[32rem] md:ml-[8.625rem] mt-10 font-title md:text-left text-center">
+    <div className="flex justify-center mx-auto h-full w-full md:w-[32rem] md:ml-[8.625rem] mt-10 font-title md:text-left text-center">
       <div className=" md:w-full py-2 md:py-0 space-y-[1.79rem] md:space-y-[2.45rem] xl:space-y-[2.75rem]">
         {menuItems.map((item, index) => (
           <div key={index}>
@@ -92,7 +92,6 @@ const DropdownMenu = () => {
       </div>
     </div>
   );
-
 };
 
 export default DropdownMenu;

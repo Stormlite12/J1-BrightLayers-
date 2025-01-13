@@ -89,7 +89,15 @@ function Home() {
           that works exclusively for you.
         </div>
       </div>
-
+      <div className="w-[90%] hidden -translate-y-20 md:flex justify-end">
+          <a
+            href="#examples"
+            className="w-[9.4375rem] h-[1.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
+            id="service"
+          >
+            check services
+          </a>
+        </div>
       <div
         className="w-full mt-[6.43rem] md:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[5.79rem] xl:mb-[6.51rem]
        flex justify-start"
@@ -122,16 +130,18 @@ function Home() {
           to build genuine partnerships.
         </div>
 
-        <div className="max-w-[80rem] flex justify-end">
+      </div>
+
+      <div className="w-[90%] -translate-y-20  md:flex justify-end hidden">
           <a
             href="#examples"
-            className="w-[9.4375rem] h-[9.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
+            className="w-[9.4375rem] h-[1rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
             id="service"
           >
             check services
           </a>
         </div>
-      </div>
+      
 
       <div className="lg:hidden w-full h-auto flex">
   <img src={rectangleMobile} alt="Mobile View" className="object-cover w-full h-full" />
@@ -156,11 +166,11 @@ function Home() {
       </div>
 
       <div className="flex flex-row md:items-center md:justify-between">
-        <div className="">
+        <div className="relative  ">
         <DropDown />
         </div>
       
-        <div className="hidden lg:flex md:w-[25.97225rem] lg:w-[26rem] xl:w-[29.21875rem] h-auto md:mr-[4rem] xl:mr-[6rem]">
+        <div className="hidden lg:flex md:w-[25.97225rem] lg:w-[26rem] xl:w-[29.21875rem] h-full md:mr-[4rem] xl:mr-[6rem]">
           <img src={rectangle} alt="image" className="w-auto" />
         </div>
       </div>
@@ -198,11 +208,12 @@ function Home() {
         <InfiniteCarousel />
   
 
-      <div className="text-center font-pSans w-full h-[1.3125rem] text-[1.125rem] font-semibold leading-[1.3275rem] tracking-[0.01125rem]">
+      <div className="md:mt-[13rem] text-center font-pSans w-full h-[1.3125rem] text-[1.125rem] font-semibold leading-[1.3275rem] tracking-[0.01125rem]
+            md:text-[1.90694rem] md:leading-[2.25019rem] md:font-semibold md:tracking-[0.01906rem]">
         Meet Our Founder
       </div>
 
-      <div className="max-w-[90%] mx-auto mt-[3.63rem] lg:mt-0"> 
+      <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[7.38rem]"> 
       
          
       <FounderBio/>

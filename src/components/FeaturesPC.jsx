@@ -1,7 +1,7 @@
 
 const FeaturesPC = () => {
   return (
-    <div className="hidden md:flex flex-row justify-center space-x-16">
+    <div className="hidden md:flex flex-row mx-auto justify-center space-x-16">
         {/* Take the call section*/}
         <div className="flex flex-col items-center w-[14.30556rem] h-[6.20369rem] relative group parent -ml-2">
             {/* take the call text */}
@@ -63,7 +63,7 @@ const FeaturesPC = () => {
         </svg>
         </div>
         
-        <div className="flex flex-row">
+        <div className="flex flex-row ">
           {/* Know About Us section*/}
         <div className="flex flex-row items-center justify-center -mt-0.5">
             {/* svg and "who are you" section */}
@@ -77,7 +77,7 @@ const FeaturesPC = () => {
                 <div className="w-[3.33331rem] h-[2.5188rem] text-[#F97316] font-inter text-[0.64813rem] font-medium leading-[0.92594rem] tracking-[0.03244rem]">WHO ARE WE?</div>
             </div>
         </div>
-        <div className="w-[9.86113rem] h-[5.09263rem] text-[#313338] font-pSans text-[2.28831rem] font-semibold leading-[2.70025rem] tracking-[0.02288rem]">
+        <div className="w-[10.86113rem] h-[5.09263rem] text-[#313338] font-pSans text-[2.28831rem] font-semibold leading-[2.70025rem] tracking-[0.02288rem]">
             Know <br /> About Us
         </div>
 
