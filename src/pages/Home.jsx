@@ -218,7 +218,7 @@ function Home() {
          
       <FounderBio/>
         
-      <BlogSpot/>
+      <BlogSpot className=""/>
 
       </div>
 

@@ -38,14 +38,16 @@ function Footer() {
         </div>
        </div>
  
-       <div className='hidden md:flex flex-row mx-auto w-[75%] mt-[3.8rem]'>
-                  <div className='w-[9.69694rem] h-[0.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white'>
-                      Copyright @TheBrightLayers
+       <div className='hidden md:flex flex-row mx-auto w-full mt-[3.8rem] h-20 relative'>
+                  <div className='md:absolute md:bottom-0 md:left-40 w-[9.69694rem] h-[5.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white
+                  
+                  xl:w-[14.07406rem] xl:h-[1.34256rem] xl:text-[0.64813rem]'>
+                   Copyright @TheBrightLayers
                   </div>
-                  <div className='w-[9.69694rem] h-[0.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white'>
+                  <div className='md:absolute md:bottom-0 md:right-16 w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] xl:text-[0.64813rem] font-normal leading-normal font-title items-center text-white'>
                   Legal
                   </div>
-                  <div className='w-[9.69694rem] h-[0.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white'>
+                  <div className='md:absolute md:bottom-0 md:right-0 w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] xl:text-[0.64813rem] font-normal leading-normal font-title items-center text-white'>
                   Site Map
                   </div>
         </div>

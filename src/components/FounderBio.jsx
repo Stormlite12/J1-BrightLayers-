@@ -26,13 +26,15 @@ function FounderBio() {
             Pooja Bhadoriya
           </div>  
           <div className="mt-[0.56rem] lg:mt-0 flex w-[10.5625rem] h-[1.1875rem] flex-col justify-center text-[#727272] font-title 
-          text-xs font-normal leading-[normal] 
-          md:text-[0.83331rem] 
-          lg:w-[9.88888rem] lg:h-[5.88888rem] lg:text-[1.01456rem] lg:leading-[130.28%] tracking-[0.01013rem]">
+          text-[0.64288rem] font-normal leading-[normal] 
+          lg:w-[9.88888rem] lg:h-[1.44444rem] lg:text-[0.66669rem]
+          mac:w-[12.36113rem] mac:h-[1.80556rem] mac:text-[0.83331rem]
+          xl:w-[13.90625rem] xl:h-[2.03125rem] xl:text-[0.9375rem]">
             Founder & Creative Director
           </div>
           <p className="absolute bottom-0 hidden lg:block lg:mt-0 mt-[2.4375rem] w-[13.5rem] h-[2.6875rem] text-[#546660] font-archivo text-[13.355px] font-normal leading-[130.238%] tracking-[0.134px] float-right lg:float-none
-          lg:w-[13.90625rem] lg:h-[2.6875rem] lg:text-[1.01456rem] lg:leading-[130.238%] lg:tracking-[0.01425rem]
+          mac:w-[12.36113rem] mac:h-[7.36113rem] mac:text-[1.26819rem] mac:tracking-[0.01269rem]
+          lg:w-[9.88888rem] lg:h-[5.88888rem] lg:text-[1.01456rem] lg:leading-[130.238%] lg:tracking-[0.01013rem]
           xl:w-[13.90625rem] xl:h-[8.2813rem] xl:text-[1.42669rem] xl:tracking-[0.01425rem] 
           
           ">&quot;Oh also, she&apos;s really excited to meet you, fellow business-owner.&quot;</p>
