@@ -12,7 +12,7 @@ function FounderBio() {
             alt=""
           />
           <img
-            className="object-cover h-auto hidden lg:flex"
+            className="object-cover h-auto hidden lg:flex lg:max-w-[16.85188rem] mac:max-w-[21.06481rem] xl:max-w-[23.69794rem]"
             src={founderImg}
             alt=""  
           />
