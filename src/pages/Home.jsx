@@ -58,7 +58,7 @@ function Home() {
         <img
           src={home1}
           alt=""
-          className="w-full h-auto max-w-[21.10825rem] md:max-w-[60rem] xl:max-w-[67.5rem]"
+          className="w-full h-auto md:max-w-[60rem] xl:max-w-[67.5rem]"
         />
       </div>
 
@@ -105,7 +105,7 @@ function Home() {
         <img
           src={image}
           alt=""
-          className="w-full min-h-[5.94675rem] max-w-[21.10825rem] md:max-w-[60rem] xl:max-w-[67.5rem] max-h-[5.94675rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+          className="w-full h-auto  md:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
         />
       </div>
 
@@ -120,9 +120,10 @@ function Home() {
         </div>
 
         <div
-          className="font-title text-center md:text-left mt-[0.91rem] w-[18.59025rem] h-[11.83988rem] text-[0.69644rem] font-semibold leading-[0.90706rem] tracking-[0.00694rem] 
-                      md:w-[40.13888rem] md:h-[8.79631rem] text-[#535353]  md:text-[1.15744rem] md:font-medium md:leading-[1.50738rem] md:tracking-[0.01156rem]  md:mt-[0.51rem] 
-                      xl:w-[45.15625rem] xl:h-[9.89581rem] xl:text-[1.30206rem] xl:leading-[1.69581rem] xl:tracking-[0.013rem] xl:mt-[0.57rem]"
+          className="font-title text-center md:text-left mt-[0.91rem] w-[19.7rem] h-[11.84rem] text-[0.7rem] font-semibold leading-[130%] tracking-[0.007rem] 
+          md:w-[40.14rem] md:h-[8.8rem] md:text-[1.16rem] md:font-medium md:leading-[1.51rem] md:tracking-[0.012rem] md:mt-[0.51rem] 
+          xl:w-[45.16rem] xl:h-[9.9rem] xl:text-[1.3rem] xl:leading-[1.7rem] xl:tracking-[0.013rem] xl:mt-[0.57rem] text-[#535353]"
+   
         >
           Our approach is different - a boutique-style agency that prioritizes
           understanding our clients as intimately as our own business. This
@@ -132,7 +133,7 @@ function Home() {
 
       </div>
 
-      <div className="w-[90%] -translate-y-20  md:flex justify-end hidden">
+      <div className="max-w-[80rem] mac:min-w-[80rem] -translate-y-20  md:flex justify-end hidden">
           <a
             href="#examples"
             className="w-[9.4375rem] h-[1rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
