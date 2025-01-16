@@ -1,4 +1,4 @@
-// import ToggleCheckbox from "../../../BrightLayers/src/components/ToggleCheckbox.jsx";
+import ToggleCheckbox from '../components/ToggleCheckbox'
 
 function LetsTalkForm() {
   return (
