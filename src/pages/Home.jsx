@@ -201,7 +201,7 @@ function Home() {
         <div
           className="text-center text-[#535353] font-semibold font-title
                     w-[20.74813rem] leading-[0.94181rem] tracking-[0.00725rem] text-[0.72313rem]
-                    sm:w-[22.25281rem] sm:text-[0.77556rem] sm:leading-[130.238%] sm:tracking-[0.00775rem]
+                    sm:w-[24.95281rem] sm:text-[0.8556rem] sm:leading-[130.238%] sm:tracking-[0.00775rem]
                     md:w-[52.7315rem] md:h-[14.49075rem] md:leading-[1.50738rem] md:tracking-[0.01156rem md:text-[1.15744rem]
                     xl:w-[59.32294rem] xl:h-[16.30206rem] xl:leading-[1.69581rem ] xl:tracking-[0.013rem] xl:text-[1.30206rem]"
         >
