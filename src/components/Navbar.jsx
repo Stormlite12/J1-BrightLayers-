@@ -22,7 +22,7 @@ const Navbar = () => {
   
             <div className="items-center space-x-8 hidden md:flex">
               
-              <a to='/#about' className={({ isActive }) =>
+              <a href='/#about' className={({ isActive }) =>
                 `lg:text-[0.83331rem] 2xl:text-[0.9375rem] font-medium font-title text-[#787878] leading-normal ${
                 isActive ? "font-extrabold" : "font-medium"
                 }`}>

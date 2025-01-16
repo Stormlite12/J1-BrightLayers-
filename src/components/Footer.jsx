@@ -18,18 +18,19 @@ function Footer() {
         </div>
 
         <div className='flex flex-row  md:space-x-[10rem] mt-[3.55rem] justify-between items-center md:items-stretch md:text-center md:ml-auto'>
-                <div className='w-[5.29744rem] h-[5.229rem] mac:w-[5.78706rem] mac:h-[1.34256rem] xl:w-[6.51044rem] xl:h-[1.51044rem] space-y-3'>
-                        <div className="text-orange-500 text-[0.86681rem] font-bold font-title leading-normal mb-[0.43rem]">Socials</div>
-                        <div className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Instagram</div>
-                        <div className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Facebook</div>
-                        <div className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Twitter</div>
-                        <div className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Linkedin</div>
+                <div className="w-[5.29744rem] h-[5.229rem] mac:w-[5.78706rem] mac:h-[1.34256rem] xl:w-[6.51044rem] xl:h-[1.51044rem] space-y-3 flex flex-col">
+                <div className="text-orange-500 text-[0.86681rem] font-bold font-title leading-normal mb-[0.43rem]">Socials</div>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal no-underline hover:underline">Instagram</a>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal no-underline hover:underline">Facebook</a>
+                <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal no-underline hover:underline">Twitter</a>
+                <a href="https://www.linkedin.com/company/the-bright-layers/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal no-underline hover:underline">LinkedIn</a>
                 </div>
 
-                <div className='w-[7.54175rem] h-[5.229rem] md:h-[2rem] space-y-3'>
-                        <div className="  text-orange-500 text-[0.86681rem] font-bold font-title leading-normal">Connect With Us</div>
-                        <div className="  text-white text-[0.743rem] font-normal font-title leading-normal">+91 9546898080</div>
-                        <div className="  text-white text-[0.743rem] font-normal font-title leading-normal">brightlayersmail.com</div>                
+
+                <div className='w-[7.54175rem] h-[5.229rem] md:h-[2rem] space-y-3 flex flex-col'>
+                <div className="text-orange-500 text-[0.86681rem] font-bold font-title leading-normal ">Connect With Us</div>
+                <a href="tel:+919546898080" className="text-white text-[0.743rem] font-normal font-title leading-normal no-underline">+91 9546898080</a>
+                <a href="mailto:brightlayersmail.com" className="text-white text-[0.743rem] font-normal font-title leading-normal no-underline">brightlayersmail.com</a>
                 </div>
                 
                
