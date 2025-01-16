@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar.jsx";
+import LetsTalkFloater from "../assets/LetsTalkFloater.png";
 import home1 from "../assets/home1.jpg";
 import image from "../assets/image.png";
 import rectangleMobile from "../assets/rectangleMobile.png";
@@ -22,6 +23,8 @@ function Home() {
                       mac:h-[7.69rem] lg:h-[6.15rem] xl:h-[8.65rem]">
         <Navbar />
       </div>
+
+      <div className="md:hidden fixed bottom-6 right-6" ><img src={LetsTalkFloater} alt="" /></div>
 
       <section className="flex w-full justify-center mt-[1.36rem] md:mt-[5.56rem] mac:mt-[6.94rem] xl:mt-[7.81rem]">
         <div className="w-[20.03675rem] h-[7.17894rem] text-center 
