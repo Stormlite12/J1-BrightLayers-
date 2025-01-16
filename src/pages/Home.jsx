@@ -34,6 +34,7 @@ function Home() {
       <section className="flex w-full justify-center mt-[1.36rem] md:mt-[5.56rem] mac:mt-[6.94rem] xl:mt-[7.81rem]">
         <div
           className="w-[20.03675rem] h-[7.17894rem] text-center 
+                        sm:w-[24.3125rem] sm:text-[1.17388rem] sm:leading-[120%] sm:tracking-[0.01075rem]
                         md:w-[56.25rem] md:h-[16.38888rem]
                         xl:w-[63.28125rem] xl:h-[18.4375rem]"
         >
@@ -75,6 +76,7 @@ function Home() {
       <div className="w-full flex flex-col justify-center items-center">
         <div
           className=" w-[11.197rem] h-[1.01794rem] text-center text-[0.85719rem] leading-[0.00856rem] tracking-[0.00856rem]
+          sm:text-[0.95456rem]
                       md:w-[39.95369rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
                       xl:w-[44.94794rem] xl:h-[2.13544rem] xl:text-[1.30206rem] xl:leading-[1.53644rem] xl:tracking-[0.013rem]
                     text-[#da5428] font-semibold font-pSans capitalize "
@@ -82,22 +84,25 @@ function Home() {
           What Do We Do?
         </div>
 
-        <div
-          className="font-title text-center md:text-left mt-[0.91rem] w-[18.8rem] h-[11.83988rem] text-[0.69644rem] font-semibold leading-[130.238%] tracking-[0.00694rem] 
-                      md:w-[39.95369rem] md:h-[16.85188rem] text-[#535353]  md:text-[1.15744rem] md:font-medium md:leading-[1.50738rem] md:tracking-[0.01156rem]  md:mt-[0.51rem] 
-                      xl:w-[44.94794rem] xl:h-[18.95831rem] xl:text-[1.30206rem] xl:leading-[1.69581rem] xl:tracking-[0.013rem] xl:mt-[0.57rem]"
-        >
-          In the last 5 years, the country has seen trendsetting marketing
-          campaigns — but what&apos;s missing is &quot;the beyonds&quot; of a
-          campaign. Does it end after a post, a hoarding, an ad? So we just want
-          likes & comments? Maybe an app download? No. That can&apos;t be all.
-          <br />
-          <br />
-          There&apos;s more to your brand than this — and we want to bring that
-          to the front too. Beyond just campaigns. Just like our name, we are
-          here to brighten up your social media presence with a layered approach
-          that works exclusively for you.
-        </div>
+      <div
+  className="font-title text-center md:text-left mt-[0.91rem] text-[#535353]
+             w-[21.6875rem] h-[11.83988rem] text-[0.8125rem] font-semibold leading-[130.238%] tracking-[0.00813rem]
+             sm:w-[25rem] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem]
+             md:w-[40rem] md:h-[16.85rem] md:text-[1.15rem] md:font-medium md:leading-[1.5rem] md:tracking-[0.0116rem] md:mt-[0.51rem]
+             lg:w-[44rem] lg:h-[18rem] lg:text-[1.3rem] lg:leading-[1.7rem] lg:tracking-[0.013rem] lg:mt-[0.57rem]"
+>
+  In the last 5 years, the country has seen trendsetting marketing campaigns —
+  but what&apos;s missing is &quot;the beyonds&quot; of a campaign. Does it end after
+  a post, a hoarding, an ad? So we just want likes & comments? Maybe an app
+  download? No. That can&apos;t be all.
+  <br />
+  <br />
+  There&apos;s more to your brand than this — and we want to bring that to the
+  front too. Beyond just campaigns. Just like our name, we are here to brighten
+  up your social media presence with a layered approach that works exclusively
+  for you.
+</div>
+
       </div>
       <div className="w-[90%] hidden -translate-y-20 md:flex justify-end">
         <a
@@ -122,6 +127,7 @@ function Home() {
       <div className="w-full flex flex-col justify-center items-center md:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[13.33rem] mt-[5.06rem]">
         <div
           className=" w-[11.197rem] h-[1.01794rem] text-center text-[0.85719rem] leading-[0.00856rem] tracking-[0.00856rem]
+           sm:text-[0.95456rem] 
                       md:w-[40.13888rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
                       xl:w-[45.15625rem] xl:h-[2.13544rem] xl:text-[1.30206rem] xl:leading-[1.53644rem] xl:tracking-[0.013rem]
                     text-[#da5428] font-semibold font-pSans capitalize"
@@ -131,6 +137,7 @@ function Home() {
 
         <div
           className="font-title text-center md:text-left mt-[0.91rem] w-[19.7rem] h-[11.84rem] text-[0.7rem] font-semibold leading-[130%] tracking-[0.007rem] 
+          sm:w-[25rem] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem]
           md:w-[40.14rem] md:h-[8.8rem] md:text-[1.16rem] md:font-medium md:leading-[1.51rem] md:tracking-[0.012rem] md:mt-[0.51rem] 
           xl:w-[45.16rem] xl:h-[9.9rem] xl:text-[1.3rem] xl:leading-[1.7rem] xl:tracking-[0.013rem] xl:mt-[0.57rem] text-[#535353]"
         >
@@ -194,6 +201,7 @@ function Home() {
         <div
           className="text-center text-[#535353] font-semibold font-title
                     w-[20.74813rem] leading-[0.94181rem] tracking-[0.00725rem] text-[0.72313rem]
+                    sm:w-[22.25281rem] sm:text-[0.77556rem] sm:leading-[130.238%] sm:tracking-[0.00775rem]
                     md:w-[52.7315rem] md:h-[14.49075rem] md:leading-[1.50738rem] md:tracking-[0.01156rem md:text-[1.15744rem]
                     xl:w-[59.32294rem] xl:h-[16.30206rem] xl:leading-[1.69581rem ] xl:tracking-[0.013rem] xl:text-[1.30206rem]"
         >
