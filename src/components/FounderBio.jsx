@@ -43,8 +43,8 @@ function FounderBio() {
 
       </div>
 
-      <div className="mt-[2.13rem] lg:mt-0">
-        <p className="w-[23.3125rem] h-50 text-[#727171] font-title text-[0.8125rem] font-normal leading-[147%] tracking-[0.13px]
+      <div className="mt-[2.13rem] lg:mt-0 mx-auto">
+        <p className="w-auto h-[10.28625rem] text-[#727171] font-title text-[0.69644rem] font-normal leading-[147%] tracking-[0.00694rem]
           lg:w-[26.66669rem] lg:h-[17.03706rem] lg:text-[0.88888rem] lg:tracking-[0.00888rem] lg:leading-[137%] 
           mac:w-[33.33338rem] mac:h-[21.29631rem] mac:text-[1.11113rem] mac:tracking-[0.01113rem] 
           xl:w-[37.5rem] xl:h-[23.95831rem] xl:text-[1.25rem] xl:tracking-[0.0125rem]">
