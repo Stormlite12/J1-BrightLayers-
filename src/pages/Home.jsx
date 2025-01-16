@@ -58,7 +58,7 @@ function Home() {
         <img
           src={home1}
           alt=""
-          className="w-full h-auto md:max-w-[60rem] xl:max-w-[67.5rem]"
+          className="w-full h-auto max-w-[90%] md:max-w-[60rem] xl:max-w-[67.5rem]"
         />
       </div>
 
@@ -105,7 +105,7 @@ function Home() {
         <img
           src={image}
           alt=""
-          className="w-full h-auto md:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+          className="w-full h-auto max-w-[90%] md:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
         />
       </div>
 

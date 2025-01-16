@@ -77,7 +77,7 @@ const DropdownMenu = () => {
                   : "max-h-0 opacity-0"
               }`}
             >
-              <div className="py-3 w-[98%] mx-auto text-gray-600 text-[0.8565rem] md:text-[1.25rem] font-title">
+              <div className="py-3 w-[95%] mx-auto text-gray-600 text-[0.78125rem] md:text-[1.25rem] font-title">
                 <p
                   className={`transition-opacity duration-1000 ease-in-out ${
                     activeIndex === index ? "opacity-100" : "opacity-0"
