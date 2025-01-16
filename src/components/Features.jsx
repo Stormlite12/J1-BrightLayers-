@@ -6,15 +6,15 @@ function Features() {
       <div className='flex flex-col items-center mt-20 w-auto'>
         {/* Text and svg */}
         <div className='flex flex-row'>
-          <div className='w-[7.2025rem] h-[1.23625rem] text-center text-[#313338] font-pSans text-[1.112rem] font-semibold leading-[1.31213rem]'>Take The Call</div>
-          <div className='text-center mt-[0.15rem] ml-1'>
+          <div className='w-[8.375rem] h-[1.23625rem] text-center text-[#313338] font-pSans text-[1.293rem] font-semibold leading-[114%] tracking-[-0.02588rem]'>Take The Call</div>
+          <div className='text-center mt-[0.15rem] ml-2'>
           <svg
           width="42"
           height="43"
           viewBox="0 0 42 43"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          className="transition ease-in-out duration-500 group-hover:-rotate-12 w-[0.90844rem] h-[0.93231rem]"
+          className="transition ease-in-out duration-500 group-hover:-rotate-12 w-[1.05631rem] h-[1.08413rem]"
         >
           <g id="Cup Icon">
             <path
@@ -54,8 +54,8 @@ function Features() {
           </div>
         </div>
         {/* Tea or Coffee */}
-        <div className='flex justify-center w-[9.46rem] h-[0.69875rem] mt-2'>
-          <div className='text-center font-inter text-[0.5375rem] font-medium leading-[0.44994rem] text-[#F97316]'>TEA OR COFFEE?</div>
+        <div className='flex justify-center w-[11rem] h-[0.8125rem] mt-2'>
+          <div className='text-center font-inter text-[0.625rem] font-medium leading-[0.44994rem] text-[#F97316]'>TEA OR COFFEE?</div>
         </div>
       </div>
 
@@ -72,11 +72,11 @@ function Features() {
                     <path d="M32 6.26001C33.7208 6.70061 35.2461 7.70141 36.3353 9.10463C37.4245 10.5078 38.0157 12.2337 38.0157 14.01C38.0157 15.7864 37.4245 17.5122 36.3353 18.9154C35.2461 20.3186 33.7208 21.3194 32 21.76" stroke="#F97316" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
             </div>
-            <div className='w-[8.1875rem] h-[1.00863rem] text-[#313338] font-pSans text-[1.10069rem] font-semibold leading-[1.25481rem]'>Know About Us</div>
+            <div className='w-[9.25rem] h-[1.1875rem] text-[#313338] font-pSans text-center text-[1.293rem] font-semibold leading-[114%] tracking-[-0.02588rem]'>Know About Us</div>
         </div>
         {/* Who Are We */}
         <div className='flex justify-center mt-2 w-[9.19175rem] h-[0.72863rem]'>
-          <div className='text-[#F97316] text-center font-inter text-[0.5605rem] font-medium leading-[0.46919rem]'>WHO ARE WE?</div>
+          <div className='text-[#F97316] text-center font-inter text-[0.625rem] font-medium leading-[0.46919rem]'>WHO ARE WE?</div>
         </div>
       </div>
     </div>

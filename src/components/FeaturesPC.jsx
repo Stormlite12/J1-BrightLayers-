@@ -9,7 +9,7 @@ const FeaturesPC = () => {
             Take <br /> <span className='un'>The Call</span></div>
             {/* svg and "tea or coffee" section */}
             
-            <div className="absolute flex flex-col justify-start left-[12.8125rem] top-[0.625rem]">
+            <div className="absolute flex flex-col justify-start left-[12.8125rem] top-[0.625rem] mx-auto">
                 <svg
           width="42"
           height="43"
