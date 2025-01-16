@@ -5,7 +5,7 @@ import group from '../assets/group.png'
  
 function Footer() {
   return (
-    <div className='bg-[#2C3E50] w-full h-[34.07319rem] md:h-[20rem]'>
+    <div className='bg-[#2C3E50] w-full h-[28.44rem] md:h-[20rem]'>
     <div className='flex flex-col md:flex-row w-[80%] mx-auto'>
        
         <div className='flex flex-row space-x-[1.26rem] items-center justify-center mt-[3.86rem]'>
@@ -17,27 +17,35 @@ function Footer() {
                                         xl:w-[6.83313rem] xl:h-[4.95994rem]' alt="" />
         </div>
 
-        <div className='flex flex-col md:flex-row space-y-[7.97rem] md:space-y-0 md:space-x-[10rem] mt-[4.05rem] items-center md:items-stretch text-center md:ml-auto'>
-                <div className='w-[5.29744rem] h-[1.229rem] mac:w-[5.78706rem] mac:h-[1.34256rem] xl:w-[6.51044rem] xl:h-[1.51044rem] space-y-2'>
-                        <div className="text-orange-500 text-[0.75006rem] font-bold font-title leading-normal mb-[0.43rem]">Socials</div>
-                        <div className="text-white text-[0.64288rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Instagram</div>
-                        <div className="text-white text-[0.64288rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Facebook</div>
-                        <div className="text-white text-[0.64288rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Twitter</div>
-                        <div className="text-white text-[0.64288rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Linkedin</div>
+        <div className='flex flex-row  md:space-x-[10rem] mt-[3.55rem] justify-between items-center md:items-stretch md:text-center md:ml-auto'>
+                <div className='w-[5.29744rem] h-[5.229rem] mac:w-[5.78706rem] mac:h-[1.34256rem] xl:w-[6.51044rem] xl:h-[1.51044rem] space-y-3'>
+                        <div className="text-orange-500 text-[0.86681rem] font-bold font-title leading-normal mb-[0.43rem]">Socials</div>
+                        <div className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Instagram</div>
+                        <div className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Facebook</div>
+                        <div className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Twitter</div>
+                        <div className="text-white text-[0.743rem] mac:text-[0.74075rem] font-normal font-title leading-normal">Linkedin</div>
                 </div>
 
-                <div className='w-[6.54175rem] h-[2rem] space-y-2'>
-                        <div className="  text-orange-500 text-[0.75006rem] font-bold font-title leading-normal">Connect With Us</div>
-                        <div className="  text-white text-[0.64288rem] font-normal font-title leading-normal">+91 9546898080</div>
-                        <div className="  text-white text-[0.64288rem] font-normal font-title leading-normal">brightlayersmail.com</div>                
+                <div className='w-[7.54175rem] h-[5.229rem] md:h-[2rem] space-y-3'>
+                        <div className="  text-orange-500 text-[0.86681rem] font-bold font-title leading-normal">Connect With Us</div>
+                        <div className="  text-white text-[0.743rem] font-normal font-title leading-normal">+91 9546898080</div>
+                        <div className="  text-white text-[0.743rem] font-normal font-title leading-normal">brightlayersmail.com</div>                
                 </div>
                 
-                <div className='md:hidden w-[9.69694rem] h-[0.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white'>
-                    Copyright @TheBrightLayers
-                </div>
+               
         </div>
+
+        <div className='md:hidden h-[.53575rem] text-[0.44675rem] font-normal leading-normal font-title text-white justify-end mt-[10rem] mx-auto'>
+                    Copyright @TheBrightLayers
+        </div>
+
+         
+
        </div>
  
+       
+
+
        <div className='hidden md:flex flex-row mx-auto w-full mt-[3.8rem] h-20 relative'>
                   <div className='md:absolute md:bottom-0 md:left-40 w-[9.69694rem] h-[5.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white
                   
