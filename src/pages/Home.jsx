@@ -10,26 +10,32 @@ import ContactForm from "../pages/ContactForm.jsx";
 import Features from "../components/Features.jsx";
 import PeopleSaying from "../components/PeopleSaying.jsx";
 import InfiniteCarousel from "../components/InfiniteCarousel.jsx";
-import FounderBio from '../components/FounderBio.jsx'
-import FeaturesPC from '../components/FeaturesPC.jsx';
+import FounderBio from "../components/FounderBio.jsx";
+import FeaturesPC from "../components/FeaturesPC.jsx";
 
 import BlogSpot from "../components/BlogSpot.jsx";
-import Footer from '../components/Footer.jsx'
+import Footer from "../components/Footer.jsx";
 
 function Home() {
   return (
     <div className="w-full h-auto bg-[#ecf0f1] z-[-1] no-scrollbar">
-      <div className="w-full h-[7.4rem]  flex justify-center items-center md:justify-between
-                      mac:h-[7.69rem] lg:h-[6.15rem] xl:h-[8.65rem]">
+      <div
+        className="w-full h-[7.4rem]  flex justify-center items-center md:justify-between
+                      mac:h-[7.69rem] lg:h-[6.15rem] xl:h-[8.65rem]"
+      >
         <Navbar />
       </div>
 
-      <div className="md:hidden fixed bottom-6 right-6" ><img src={LetsTalkFloater} alt="" /></div>
+      <div className="md:hidden fixed bottom-6 right-6">
+        <img src={LetsTalkFloater} alt="" />
+      </div>
 
       <section className="flex w-full justify-center mt-[1.36rem] md:mt-[5.56rem] mac:mt-[6.94rem] xl:mt-[7.81rem]">
-        <div className="w-[20.03675rem] h-[7.17894rem] text-center 
+        <div
+          className="w-[20.03675rem] h-[7.17894rem] text-center 
                         md:w-[56.25rem] md:h-[16.38888rem]
-                        xl:w-[63.28125rem] xl:h-[18.4375rem]">
+                        xl:w-[63.28125rem] xl:h-[18.4375rem]"
+        >
           <span
             className="text-[#303338] text-[0.96431rem] font-semibold leading-[1.5815rem] tracking-[0.00963rem] font-pSans 
                       md:text-[2.54631rem] md:font-medium md:leading-[3.00463rem] md:tracking-[0.02544rem] 
@@ -76,7 +82,7 @@ function Home() {
         </div>
 
         <div
-          className="font-title text-center md:text-left mt-[0.91rem] w-[18.59025rem] h-[11.83988rem] text-[0.69644rem] font-semibold leading-[0.90706rem] tracking-[0.00694rem] 
+          className="font-title text-center md:text-left mt-[0.91rem] w-[18.8rem] h-[11.83988rem] text-[0.69644rem] font-semibold leading-[0.90706rem] tracking-[0.00694rem] 
                       md:w-[39.95369rem] md:h-[16.85188rem] text-[#535353]  md:text-[1.15744rem] md:font-medium md:leading-[1.50738rem] md:tracking-[0.01156rem]  md:mt-[0.51rem] 
                       xl:w-[44.94794rem] xl:h-[18.95831rem] xl:text-[1.30206rem] xl:leading-[1.69581rem] xl:tracking-[0.013rem] xl:mt-[0.57rem]"
         >
@@ -93,14 +99,14 @@ function Home() {
         </div>
       </div>
       <div className="w-[90%] hidden -translate-y-20 md:flex justify-end">
-          <a
-            href="#examples"
-            className="w-[9.4375rem] h-[1.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
-            id="service"
-          >
-            check services
-          </a>
-        </div>
+        <a
+          href="#examples"
+          className="w-[9.4375rem] h-[1.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
+          id="service"
+        >
+          check services
+        </a>
+      </div>
       <div
         className="w-full mt-[10rem] md:mt-[7.69rem] lg:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[8.65rem]
        flex justify-start"
@@ -126,31 +132,31 @@ function Home() {
           className="font-title text-center md:text-left mt-[0.91rem] w-[19.7rem] h-[11.84rem] text-[0.7rem] font-semibold leading-[130%] tracking-[0.007rem] 
           md:w-[40.14rem] md:h-[8.8rem] md:text-[1.16rem] md:font-medium md:leading-[1.51rem] md:tracking-[0.012rem] md:mt-[0.51rem] 
           xl:w-[45.16rem] xl:h-[9.9rem] xl:text-[1.3rem] xl:leading-[1.7rem] xl:tracking-[0.013rem] xl:mt-[0.57rem] text-[#535353]"
-   
         >
           Our approach is different - a boutique-style agency that prioritizes
           understanding our clients as intimately as our own business. This
           approach has not only made us experts in our field but has allowed us
           to build genuine partnerships.
         </div>
-
       </div>
 
       <div className="max-w-[80rem] mac:min-w-[80rem] -translate-y-20  md:flex justify-end hidden">
-          <a
-            href="#examples"
-            className="w-[9.4375rem] h-[1rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
-            id="service"
-          >
-            check services
-          </a>
-        </div>
-      
+        <a
+          href="#examples"
+          className="w-[9.4375rem] h-[1rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
+          id="service"
+        >
+          check services
+        </a>
+      </div>
 
       <div className="lg:hidden w-full h-auto flex mt-[8rem]">
-  <img src={rectangleMobile} alt="Mobile View" className="object-cover w-full h-full" />
-</div>
-
+        <img
+          src={rectangleMobile}
+          alt="Mobile View"
+          className="object-cover w-full h-full"
+        />
+      </div>
 
       <div className="md:block flex flex-col items-center justify-center mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] md:ml-[7.55rem] xl:mt-[16.04rem] xl:ml-[8.49rem]">
         <div
@@ -171,9 +177,9 @@ function Home() {
 
       <div className="flex flex-row md:items-center md:justify-between">
         <div className="relative  ">
-        <DropDown />
+          <DropDown />
         </div>
-      
+
         <div className="hidden lg:flex md:w-[25.97225rem] lg:w-[26rem] xl:w-[29.21875rem] h-full md:mr-[4rem] xl:mr-[6rem]">
           <img src={rectangle} alt="image" className="w-auto" />
         </div>
@@ -205,38 +211,31 @@ function Home() {
         <Features />
       </div>
       <div>
-        <FeaturesPC className="md:mt-[2rem]"/>
+        <FeaturesPC className="md:mt-[2rem]" />
       </div>
 
-        <PeopleSaying />
-        <InfiniteCarousel />
-  
+      <PeopleSaying />
+      <InfiniteCarousel />
 
-      <div className="md:mt-[9.81rem] mac:mt-[12.27rem] xl:mt-[13.8rem] text-center font-pSans w-full h-[1.3125rem] text-[1.125rem] font-semibold leading-[1.3275rem] tracking-[0.01125rem]
-            md:text-[1.90694rem] md:leading-[2.25019rem] md:font-semibold md:tracking-[0.01906rem]">
+      <div
+        className="md:mt-[9.81rem] mac:mt-[12.27rem] xl:mt-[13.8rem] text-center font-pSans w-full h-[1.3125rem] text-[1.125rem] font-semibold leading-[1.3275rem] tracking-[0.01125rem]
+            md:text-[1.90694rem] md:leading-[2.25019rem] md:font-semibold md:tracking-[0.01906rem]"
+      >
         Meet Our Founder
       </div>
 
-      <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]"> 
-      
-         
-      <FounderBio/>
-      <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem]">
-      <BlogSpot/>
-      </div>
-      
-
+      <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]">
+        <FounderBio />
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem]">
+          <BlogSpot />
+        </div>
       </div>
 
       <div className="className=lg:mt-[15.3rem] mac:mt-[19.12rem] xl:mt-[21.51rem] ">
-      <Footer />
+        <Footer />
       </div>
-
-
     </div>
   );
 }
 
 export default Home;
-  
-
