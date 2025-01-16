@@ -40,6 +40,7 @@ function Home() {
         >
           <span
             className="text-[#303338] text-[0.96431rem] font-semibold leading-[1.5815rem] tracking-[0.00963rem] font-pSans 
+                      sm:text-[0.99rem]
                       md:text-[2.54631rem] md:font-medium md:leading-[3.00463rem] md:tracking-[0.02544rem] 
                       xl:text-[2.86456rem] xl:leading-[3.38019rem] xl:tracking-[0.02863rem] "
           >
@@ -76,7 +77,7 @@ function Home() {
       <div className="w-full flex flex-col justify-center items-center">
         <div
           className=" w-[11.197rem] h-[1.01794rem] text-center text-[0.85719rem] leading-[0.00856rem] tracking-[0.00856rem]
-          sm:text-[0.95456rem]
+                      sm:text-[0.95456rem]
                       md:w-[39.95369rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
                       xl:w-[44.94794rem] xl:h-[2.13544rem] xl:text-[1.30206rem] xl:leading-[1.53644rem] xl:tracking-[0.013rem]
                     text-[#da5428] font-semibold font-pSans capitalize "
