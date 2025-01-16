@@ -19,6 +19,9 @@ export default {
         pSans: ["Public Sans"],
         inter: ["Inter"],
         archivo: ["Archivo"]
+      },
+      transitionDuration: {
+        '2000': '2000ms',
       }
     },
   },

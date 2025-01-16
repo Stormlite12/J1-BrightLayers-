@@ -100,7 +100,7 @@ function Home() {
             </div>
 
       </div>
-      <div className="w-[90%] hidden -translate-y-20 md:flex justify-end">
+      <div className="hidden mac:-translate-y-20 md:flex justify-end mac:mr-20" >
         <a
           href="#examples"
           className="w-[9.4375rem] h-[1.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
@@ -144,10 +144,10 @@ function Home() {
         </div>
       </div>
 
-      <div className="max-w-[80rem] mac:min-w-[80rem] -translate-y-20  md:flex justify-end hidden">
+      <div className="hidden mac:-translate-y-20 md:flex justify-end mac:mr-20">
         <a
           href="#examples"
-          className="w-[9.4375rem] h-[1rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
+          className="w-[9.4375rem] h-[1.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block  "
           id="service"
         >
           check services
