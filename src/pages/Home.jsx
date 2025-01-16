@@ -99,17 +99,17 @@ function Home() {
           </a>
         </div>
       <div
-        className="w-full mt-[8.63rem] md:mt-[7.69rem] lg:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[8.65rem]
+        className="w-full mt-[10rem] md:mt-[7.69rem] lg:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[8.65rem]
        flex justify-start"
       >
         <img
           src={image}
           alt=""
-          className="w-full h-auto  md:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+          className="w-full h-auto md:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
         />
       </div>
 
-      <div className="w-full flex flex-col justify-center items-center md:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[13.33rem] mt-[4.34rem]">
+      <div className="w-full flex flex-col justify-center items-center md:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[13.33rem] mt-[5.06rem]">
         <div
           className=" w-[11.197rem] h-[1.01794rem] text-center text-[0.85719rem] leading-[0.00856rem] tracking-[0.00856rem]
                       md:w-[40.13888rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
@@ -144,7 +144,7 @@ function Home() {
         </div>
       
 
-      <div className="lg:hidden w-full h-auto flex">
+      <div className="lg:hidden w-full h-auto flex mt-[8rem]">
   <img src={rectangleMobile} alt="Mobile View" className="object-cover w-full h-full" />
 </div>
 
