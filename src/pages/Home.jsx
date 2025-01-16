@@ -69,9 +69,13 @@ function Home() {
 
       <div className="w-full mt-[5.43rem] md:mt-[6.15rem] mac:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[4.63rem] mac:mb-[5.79rem] xl:mb-[6.51rem]
        flex justify-end">
-        <img src={home1} alt="" className="w-full h-auto max-w-[90%] md:max-w-[60rem]  xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem] "/>
+        <img src={home1} alt="" className="w-full h-auto max-w-[90%] lg:max-w-[52rem] mac:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem] "/>
       </div>
       
+
+      <div>
+        
+      </div>
       <div className="w-[11.197rem] h-[1.01794rem] text-center text-[0.83719rem] leading-[0.00856rem] tracking-[0.00856rem]
                       sm:text-[0.95456rem]
                       md:w-[40.13888rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
@@ -81,7 +85,7 @@ function Home() {
 
 
 
-      <div className="font-title text-center md:text-left mt-[0.91rem] text-[#535353]
+      <div className="font-title text-center md:text-left mt-[0.91rem] text-[#545454]
              w-[21.6875rem] h-[11.83988rem] text-[0.7rem] font-semibold leading-[130.238%] tracking-[0.00813rem]
              sm:w-[25rem] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem]
              md:w-[40.13888rem] md:h-[16.85rem] md:text-[1.15rem] md:font-medium md:leading-[1.5rem] md:tracking-[0.0116rem] md:mt-[0.51rem] 
@@ -103,7 +107,7 @@ function Home() {
       <div className="hidden mac:-translate-y-20 md:flex justify-end mac:mr-20" >
         <a
           href="#examples"
-          className="w-[9.4375rem] h-[1.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
+          className="w-[9.4375rem] h-[1.75rem] text-[#545454] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
           id="service"
         >
           check services
@@ -116,7 +120,7 @@ function Home() {
         <img
           src={image}
           alt=""
-          className="w-full h-auto max-w-[90%] md:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+          className="w-full h-auto max-w-[90%] lg:max-w-[52rem] mac:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
         />
       </div>
 
@@ -135,7 +139,7 @@ function Home() {
           className="font-title text-center md:text-left mt-[0.91rem] w-[19.7rem] h-[11.84rem] text-[0.7rem] font-semibold leading-[130%] tracking-[0.007rem] 
           sm:w-[25rem] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem]
           md:w-[40.14rem] md:h-[8.8rem] md:text-[1.16rem] md:font-medium md:leading-[1.51rem] md:tracking-[0.012rem] md:mt-[0.51rem] 
-          xl:w-[45.16rem] xl:h-[9.9rem] xl:text-[1.3rem] xl:leading-[1.7rem] xl:tracking-[0.013rem] xl:mt-[0.57rem] text-[#535353]"
+          xl:w-[45.16rem] xl:h-[9.9rem] xl:text-[1.3rem] xl:leading-[1.7rem] xl:tracking-[0.013rem] xl:mt-[0.57rem] text-[#545454]"
         >
           Our approach is different - a boutique-style agency that prioritizes
           understanding our clients as intimately as our own business. This
