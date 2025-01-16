@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar.jsx";
-import LetsTalkFloater from "../assets/LetsTalkFloater.png";
+import LetsTalkFloater from "../assets/LetsTalkFloater.svg";
 import home1 from "../assets/home1.jpg";
 import image from "../assets/image.png";
 import rectangleMobile from "../assets/rectangleMobile.png";
@@ -26,9 +26,10 @@ function Home() {
         <Navbar />
       </div>
 
-      <div className="md:hidden fixed bottom-6 right-6">
-        <img src={LetsTalkFloater} alt="" />
-      </div>
+      <div className="md:hidden fixed bottom-6 right-6 bg-[#2C3E50] w-[2rem] h-[2rem] rounded-full flex items-center justify-center">
+  <img src={LetsTalkFloater} className="w-[1rem] h-[1.5rem] " alt="" />
+</div>
+
 
       <section className="flex w-full justify-center mt-[1.36rem] md:mt-[5.56rem] mac:mt-[6.94rem] xl:mt-[7.81rem]">
         <div
