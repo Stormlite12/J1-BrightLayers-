@@ -1,4 +1,4 @@
-import ToggleCheckbox from '../components/ToggleCheckbox'
+import ToggleCheckbox from '../components/ToggleCheckbox.jsx'
 
 function LetsTalkForm() {
   return (
