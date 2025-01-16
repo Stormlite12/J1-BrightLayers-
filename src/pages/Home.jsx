@@ -19,11 +19,11 @@ function Home() {
   return (
     <div className="w-full h-auto bg-[#ecf0f1] z-[-1] no-scrollbar">
       <div className="w-full h-[7.4rem]  flex justify-center items-center md:justify-between
-                      md:h-[8.52]">
+                      mac:h-[7.69rem] lg:h-[6.15rem] xl:h-[8.65rem]">
         <Navbar />
       </div>
 
-      <section className="flex w-full justify-center mt-[1.36rem] md:mt-[6.94rem] xl:mt-[7.81rem]">
+      <section className="flex w-full justify-center mt-[1.36rem] md:mt-[5.56rem] mac:mt-[6.94rem] xl:mt-[7.81rem]">
         <div className="w-[20.03675rem] h-[7.17894rem] text-center 
                         md:w-[56.25rem] md:h-[16.38888rem]
                         xl:w-[63.28125rem] xl:h-[18.4375rem]">
@@ -52,13 +52,13 @@ function Home() {
       </section>
 
       <div
-        className="w-full mt-[5.43rem] md:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[5.79rem] xl:mb-[6.51rem]
+        className="w-full mt-[5.43rem] md:mt-[6.15rem] mac:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[4.63rem] mac:mb-[5.79rem] xl:mb-[6.51rem]
        flex justify-end"
       >
         <img
           src={home1}
           alt=""
-          className="w-full min-h-[5.94675rem] max-w-[21.10825rem] md:max-w-[60rem] xl:max-w-[67.5rem] max-h-[5.94675rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+          className="w-full h-auto max-w-[21.10825rem] md:max-w-[60rem] xl:max-w-[67.5rem]"
         />
       </div>
 
@@ -99,7 +99,7 @@ function Home() {
           </a>
         </div>
       <div
-        className="w-full mt-[6.43rem] md:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[5.79rem] xl:mb-[6.51rem]
+        className="w-full mt-[8.63rem] md:mt-[7.69rem] lg:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[8.65rem]
        flex justify-start"
       >
         <img
@@ -109,7 +109,7 @@ function Home() {
         />
       </div>
 
-      <div className="w-full flex flex-col justify-center items-center md:mt-[8.19rem] mt-[5.06rem]">
+      <div className="w-full flex flex-col justify-center items-center md:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[13.33rem] mt-[4.34rem]">
         <div
           className=" w-[11.197rem] h-[1.01794rem] text-center text-[0.85719rem] leading-[0.00856rem] tracking-[0.00856rem]
                       md:w-[40.13888rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
@@ -148,7 +148,7 @@ function Home() {
 </div>
 
 
-      <div className="md:block flex flex-col items-center justify-center mt-[4.77rem] md:mt-[14.26rem] md:ml-[7.55rem] xl:mt-[16.04rem] xl:ml-[8.49rem]">
+      <div className="md:block flex flex-col items-center justify-center mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] md:ml-[7.55rem] xl:mt-[16.04rem] xl:ml-[8.49rem]">
         <div
           className="w-[15.996rem] h-[3.98444rem] text-center text-[#303338] text-[1.43756rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
         md:text-left md:w-[25.46294rem] md:h-[6.34263rem]  md:text-[2.28831rem] md:leading-[2.70025rem] md:tracking-[0.02288rem]  
@@ -176,7 +176,7 @@ function Home() {
       </div>
 
       <div>
-        <ContactForm />
+        <ContactForm className="lg:mt-[13.59rem] mac:mt-[16.99rem] xl:mt-[19rem]" />
       </div>
 
       <div className="w-full flex justify-center mt-[3.08rem]">
@@ -201,30 +201,34 @@ function Home() {
         <Features />
       </div>
       <div>
-        <FeaturesPC/>
+        <FeaturesPC className="md:mt-[2rem]"/>
       </div>
 
         <PeopleSaying />
         <InfiniteCarousel />
   
 
-      <div className="md:mt-[13rem] text-center font-pSans w-full h-[1.3125rem] text-[1.125rem] font-semibold leading-[1.3275rem] tracking-[0.01125rem]
+      <div className="md:mt-[9.81rem] mac:mt-[12.27rem] xl:mt-[13.8rem] text-center font-pSans w-full h-[1.3125rem] text-[1.125rem] font-semibold leading-[1.3275rem] tracking-[0.01125rem]
             md:text-[1.90694rem] md:leading-[2.25019rem] md:font-semibold md:tracking-[0.01906rem]">
         Meet Our Founder
       </div>
 
-      <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[7.38rem]"> 
+      <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]"> 
       
          
       <FounderBio/>
-        
-      <BlogSpot className=""/>
+      <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem]">
+      <BlogSpot/>
+      </div>
+      
 
       </div>
 
-      
+      <div className="className=lg:mt-[15.3rem] mac:mt-[19.12rem] xl:mt-[21.51rem] ">
+      <Footer />
+      </div>
 
-      <Footer/>
+
     </div>
   );
 }

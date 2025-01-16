@@ -48,7 +48,7 @@ const InfiniteCarousel = () => {
 
   return (
     <div
-      className="flex max-w-[90%] md:max-w-[80%] mx-auto justify-start mt-[4rem] mb-[10rem] overflow-x-auto scroll-smooth no-scrollbar"
+      className="flex max-w-[90%] md:max-w-[80%] mx-auto justify-start mt-[4rem] md:mt-[6rem] lg:mt-[9rem] mb-[10rem] overflow-x-auto scroll-smooth no-scrollbar"
       ref={containerRef}
     >
       {/* Add extra padding div at the beginning */}
