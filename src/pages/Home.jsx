@@ -76,7 +76,7 @@ function Home() {
 
       <div className="w-full flex flex-col justify-center items-center">
         <div
-          className=" w-[11.197rem] h-[1.01794rem] text-center text-[0.85719rem] leading-[0.00856rem] tracking-[0.00856rem]
+          className=" w-[11.197rem] h-[1.01794rem] text-center text-[0.83719rem] leading-[0.00856rem] tracking-[0.00856rem]
                       sm:text-[0.95456rem]
                       md:w-[39.95369rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
                       xl:w-[44.94794rem] xl:h-[2.13544rem] xl:text-[1.30206rem] xl:leading-[1.53644rem] xl:tracking-[0.013rem]
@@ -87,7 +87,7 @@ function Home() {
 
       <div
   className="font-title text-center md:text-left mt-[0.91rem] text-[#535353]
-             w-[21.6875rem] h-[11.83988rem] text-[0.8125rem] font-semibold leading-[130.238%] tracking-[0.00813rem]
+             w-[21.6875rem] h-[11.83988rem] text-[0.7rem] font-semibold leading-[130.238%] tracking-[0.00813rem]
              sm:w-[25rem] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem]
              md:w-[40rem] md:h-[16.85rem] md:text-[1.15rem] md:font-medium md:leading-[1.5rem] md:tracking-[0.0116rem] md:mt-[0.51rem]
              lg:w-[44rem] lg:h-[18rem] lg:text-[1.3rem] lg:leading-[1.7rem] lg:tracking-[0.013rem] lg:mt-[0.57rem]"
