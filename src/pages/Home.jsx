@@ -83,7 +83,7 @@ function Home() {
         </div>
 
         <div
-          className="font-title text-center md:text-left mt-[0.91rem] w-[18.8rem] h-[11.83988rem] text-[0.69644rem] font-semibold leading-[0.90706rem] tracking-[0.00694rem] 
+          className="font-title text-center md:text-left mt-[0.91rem] w-[18.8rem] h-[11.83988rem] text-[0.69644rem] font-semibold leading-[130.238%] tracking-[0.00694rem] 
                       md:w-[39.95369rem] md:h-[16.85188rem] text-[#535353]  md:text-[1.15744rem] md:font-medium md:leading-[1.50738rem] md:tracking-[0.01156rem]  md:mt-[0.51rem] 
                       xl:w-[44.94794rem] xl:h-[18.95831rem] xl:text-[1.30206rem] xl:leading-[1.69581rem] xl:tracking-[0.013rem] xl:mt-[0.57rem]"
         >
