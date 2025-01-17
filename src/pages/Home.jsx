@@ -172,12 +172,17 @@ function Home() {
     
       <div id="service"></div>
 
-      <div className="relative mx-auto max-w-[90rem] h-auto flex flex-row md:items-center md:justify-between mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] space-x-10 "  >
+      <div className="relative mx-auto max-w-[90%] h-auto flex flex-row md:items-center mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] space-x-10 "  >
        
         <div className="relative" >
-        <div className="w-[70%]  md:w-[32rem] md:ml-[8.625rem] mx-auto h-[3.98444rem] text-center text-[#303338] text-[1.43756rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
-            md:text-left md:h-[6.34263rem]  md:text-[2.28831rem] md:leading-[2.70025rem] md:tracking-[0.02288rem]  
-            xl:h-[7.13544rem] xl:text-[2.57438rem] xl:leading-[3.03775rem] xl:tracking-[0.02575rem]"
+        <div className="w-[70%] md:ml-[8.625rem] mx-auto h-[3.98444rem] text-center text-[#303338] text-[1.43756rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
+            md:text-left
+            lg:w-[22.37038rem] lg:h-[5.07406rem] lg:text-[1.83069rem] lg:tracking-[0.01831rem] 
+            mac:w-[25.46294rem] mac:h-[6.34263rem] mac:text-[2.28831rem] mac:tracking-[0.02288rem] 
+            lap:w-[27.17375rem] lap:h-[6.76875rem] lap:text-[2.44206rem] lap:tracking-[0.02444rem] 
+            xl:w-[28.64581rem] xl:h-[7.13544rem] xl:text-[2.57438rem]  xl:tracking-[0.02575rem]
+            2xl:w-[30.55556rem] 2xl:h-[7.61113rem] 2xl:text-[2.746rem]  2xl:tracking-[0.02744rem]
+            "
             >Service We Provide For Your Brand
           <span className="text-[#303338] md:text-[2.28831rem] md:leading-[2.70025rem] md:tracking-[0.02288rem] font-pSans font-semibold  ">
             {" "}
@@ -185,7 +190,7 @@ function Home() {
           <span className="text-[#303338] xl:text-[2.57438rem] xl:leading-[3.03775rem] xl:tracking-[0.02575rem] font-pSans font-semibold ">
             ツ
           </span>
-          <AnimatedLogo />
+          <AnimatedLogo />  
         </div>
 
         <div className="">
@@ -242,10 +247,13 @@ function Home() {
       </div>
 
       <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]" >
+        <div className="mx-auto">
         <FounderBio />
+        </div>
+
 
         <div id="blog"></div>
-        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] max-w-[80%] mx-auto" >
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto" >
           <BlogSpot />
         </div>
       </div>

@@ -37,24 +37,25 @@ function BlogSpot() {
     return (
 
 <div className='mt-[6.91rem] w-auto mx-auto mb-[10rem]'>
-<p className="mx-auto text-center font-pSans w-[14.94719rem] h-[1.12506rem] font-semibold text-[clamp(1.83069rem,1.5vw,3.4325rem)] leading-[1.13794rem] tracking-[0.00963rem]">Blog</p>
-<div className='mx-auto flex items-center justify-between mt-[2.57rem] space-x-[1.75rem] overflow-x-scroll no-scrollbar scroll-smooth over'>
+<p className="mx-auto text-center font-pSans w-[14.94719rem] h-[1.12506rem] lg:h-[4rem] font-semibold text-[clamp(1.35606rem,1.5vw,2.54263rem)] leading-[1.13794rem] tracking-[0.00963rem]">Blog</p>
+<div className='mx-auto flex items-center justify-between mt-[2.57rem] space-x-[1.75rem] overflow-x-scroll no-scrollbar md:overflow-visible'>
     {posts.map((post, index) => (
         <div key={index} className="w-[12.84888rem] h-[12.14rem] 
-                                    lg:w-[33rem] lg:h-[18rem]
+                                    lg:w-[17.62963rem] lg:h-[22.11113rem]
+                                    mac:w-[22.03706rem] mac:h-[27.63894rem]
+                                    lap:w-[23.51769rem] lap:h-[29.49588rem]
+                                    xl:w-[24.79169rem]  xl:h-[31.09375rem]
+                                    2xl:w-[26.44444rem] 2xl:h-[33.16669rem]
+                                    3xl:w-[33.05556rem] 3xl:h-[41.45838rem]
         ">
             <a href={post.link} target="_blank" rel="noopener noreferrer">
-            <div className="relative w-full h-[83%]">
+            <div className="relative w-full h-[100%]">
                 <img
                 src={post.firstImage || rectangle188}
                 alt="blogImg"
-                className=" overflow-clip absolute top-0 left-0 w-full h-full opacity-80 bg-black transition-opacity duration-700 hover:opacity-0 object-cover"
+                className=" overflow-clip absolute top-0 left-0 w-full h-full opacity-80 bg-black transition-opacity duration-700 hover:opacity-50 object-cover"
                 />
-                <img
-                src={[rectangle189, rectangle190, rectangle191][index % 3]}
-                alt="hoverImg"
-                className="absolute top-0 left-0 w-full h-full opacity-0 transition-opacity duration-700 hover:opacity-100 object-cover"
-                />
+                
             </div>
             </a>
         <p

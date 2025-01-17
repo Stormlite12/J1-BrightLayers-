@@ -31,7 +31,7 @@ function FounderBio() {
 
 
   return (
-    <div className="flex flex-col lg:flex-row w-full lg:max-w-[80rem] mx-auto overflow-visible lg:space-x-[3.23rem]">
+    <div className="flex flex-col lg:flex-row w-full mx-auto overflow-visible lg:space-x-[3.23rem]">
       <div className="lg:flex lg:flex-row lg:space-x-[2.08rem] " >
         <div className="relative w-full overflow-visible " ref={targetRef}>
           <img 

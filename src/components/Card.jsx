@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 const Card = forwardRef((props, ref) => {
   return (
     <div ref={ref} className="overflow-x-hidden">
-      <div className="max-w-full bg-[#1a3f60] rounded-[0.75388rem] overflow-hidden mx-auto px-4 py-4 md:p-8 flex flex-col justify-between
+      <div className="max-w-full bg-[#1a3f60] rounded-[1.66669rem] overflow-hidden mx-auto px-4 py-4 md:p-8 flex flex-col justify-between
        w-[12.60431rem] h-[17.33094rem] 
        md:w-[21.11113rem] md:h-[29.02781rem]
        xl:w-[23.75rem] xl:h-[32.65625rem]">

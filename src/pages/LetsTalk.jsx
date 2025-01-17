@@ -6,7 +6,7 @@ import BlogSpot from '../components/BlogSpot.jsx'
 
 function LetsTalk() {
   return (
-    <div>
+    <div className="">
         {/* <Navbar/> */}
         <Navbar />
 
@@ -35,7 +35,7 @@ function LetsTalk() {
         
 
         {/* The form and image div */}
-        <div className="flex flex-row w-[90%] mx-auto
+        <div className="flex flex-row w-[85%] mx-auto
         lg:mt-[6.63rem] mac:mt-[8.29rem] lap:mt-[8.84rem] xl:mt-[9.32rem] 2xl:mt-[9.94rem] 3xl:mt-[12.43rem]
         lg:gap-x-[2.52rem] mac:gap-x-[3.15rem] lap:gap-x-[3.36rem] xl:gap-x-[3.54rem] 2xl:gap-x-[3.78rem] 3xl:gap-x-[4.72rem]">
             <div><img className="lg:max-w-[25rem] lg:max-h-[40.03706rem]
@@ -60,7 +60,7 @@ function LetsTalk() {
        
 
 
-    <div className="w-[90%] mx-auto h-[100vh] flex flex-col justify-center">
+    <div className="w-[85%] mx-auto h-[100vh] flex flex-col justify-center">
 
         {/*Reach Out To Us */}
         <div className=" w-[26rem] text-[#303338] text-[clamp(1.83069rem,2vw,3.4325rem)] font-semibold font-['Public Sans'] leading-[3.6456rem] tracking-wide">Reach Out To Us</div>
@@ -70,7 +70,7 @@ function LetsTalk() {
         </svg>
 
         {/* Grid for email,contact and address */}
-        <div className=" w-[85%] mt-12 grid grid-cols-2 gap-12">   
+        <div className="w-[85%] mt-12 grid grid-cols-2 gap-12">   
                   <div> 
                   <div data-layer="Email Address" className=" w-[12.5625rem] h-[3.4375rem] text-orange-500 text-[1.5625rem] font-bold font-title leading-loose tracking-tight">Email Address</div>
                   <div data-layer="admin@dunk.agency" className="AdminDunkAgency w-[19.4375rem] h-[2.0625rem] text-[#535353] text-[1.5625rem] font-medium font-title leading-loose tracking-tight">admin@dunk.agency</div>
