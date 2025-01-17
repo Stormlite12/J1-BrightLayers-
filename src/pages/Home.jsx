@@ -213,7 +213,7 @@ function Home() {
 
       <div className="w-full flex justify-center mt-[3.08rem]">
         <div
-          className="text-center text-[#535353] font-semibold font-title
+          className="text-center text-[#545454] font-medium font-title
                     w-[20.74813rem] leading-[0.94181rem] tracking-[0.00725rem] text-[0.72313rem]
                     sm:w-[24.95281rem] sm:text-[0.8556rem] sm:leading-[130.238%] sm:tracking-[0.00775rem]
                     md:w-[52.7315rem] md:h-[14.49075rem] md:leading-[1.50738rem] md:tracking-[0.01156rem md:text-[1.15744rem]
@@ -254,7 +254,7 @@ function Home() {
 
 
         <div id="blog"></div>
-        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto" >
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto w-[90%]" >
           <BlogSpot />
         </div>
       </div>

@@ -1,10 +1,8 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import rectangle187 from '../assets/rectangle187.png';
+
 import rectangle188 from '../assets/rectangle188.png';
-import rectangle189 from '../assets/rectangle189.png';
-import rectangle190 from '../assets/rectangle190.png';
-import rectangle191 from '../assets/rectangle191.png';
+
 
 function BlogSpot() {
     const [posts, setPosts] = useState([]);
@@ -36,7 +34,7 @@ function BlogSpot() {
     }, []);
     return (
 
-<div className='mt-[6.91rem] w-auto mx-auto mb-[10rem]'>
+<div className='mt-[6.91rem] mb-[10rem]'>
 <p className="mx-auto text-center font-pSans w-[14.94719rem] h-[1.12506rem] lg:h-[4rem] font-semibold text-[clamp(1.35606rem,1.5vw,2.54263rem)] leading-[1.13794rem] tracking-[0.00963rem]">Blog</p>
 <div className='mx-auto flex items-center justify-between mt-[2.57rem] space-x-[1.75rem] overflow-x-scroll no-scrollbar md:overflow-visible'>
     {posts.map((post, index) => (
@@ -73,4 +71,4 @@ function BlogSpot() {
     );
 }
 
-export default BlogSpot;
+export default BlogSpot;
