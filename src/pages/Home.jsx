@@ -172,10 +172,11 @@ function Home() {
     
       <div id="service"></div>
 
-      <div className="relative mx-auto max-w-[90%] h-auto flex flex-row md:items-center mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] space-x-10 "  >
+      <div className="mx-auto max-w-[90%] justify-around space-x-4 h-auto flex flex-row md:items-center mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem]  "  >
        
-        <div className="relative" >
-        <div className="w-[70%] md:ml-[8.625rem] mx-auto h-[3.98444rem] text-center text-[#303338] text-[1.43756rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
+        <div className=" " >
+        <div className="w-[70%] mx-auto lg:mx-0 h-[3.98444rem] text-center text-[#303338] text-[1.23225rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
+            sm:text-[1.4rem]
             md:text-left
             lg:w-[22.37038rem] lg:h-[5.07406rem] lg:text-[1.83069rem] lg:tracking-[0.01831rem] 
             mac:w-[25.46294rem] mac:h-[6.34263rem] mac:text-[2.28831rem] mac:tracking-[0.02288rem] 
@@ -201,7 +202,7 @@ function Home() {
 
 
 
-        <div className="hidden  lg:flex md:w-[25.97225rem] lg:w-[26rem] xl:w-[29.21875rem] h-full md:mr-[4rem] xl:mr-[6rem]">
+        <div className="hidden lg:flex ">
           <img src={rectangle} alt="image" className="w-auto" />
         </div>
       </div>
@@ -246,8 +247,8 @@ function Home() {
         Meet Our Founder
       </div>
 
-      <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]" >
-        <div className="mx-auto">
+      <div className="w-full mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]" >
+        <div className="w-[90%] mx-auto">
         <FounderBio />
         </div>
 

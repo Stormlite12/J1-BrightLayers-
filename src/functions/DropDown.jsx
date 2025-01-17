@@ -34,13 +34,13 @@ const DropdownMenu = () => {
   ];
 
   return (
-    <div className="flex justify-center mx-auto h-full w-[90%] md:w-[32rem] md:ml-[8.625rem] mt-10 font-title md:text-left text-center">
+    <div className="flex justify-center mx-auto h-full w-[90%] md:w-[32rem] mt-10 font-title md:text-left text-center">
       <div className=" md:w-full py-2 md:py-0 space-y-[1.79rem] md:space-y-[2.45rem] xl:space-y-[2.75rem]">
         {menuItems.map((item, index) => (
           <div key={index}>
             <div className="flex md:justify-start justify-center items-center space-x-[1rem] md:space-x-[2rem]">
               <span
-                className="text-[0.885rem] md:text-[1.375rem] font-medium font-title cursor-pointer"
+                className="text-[0.885rem] lg:text-[clamp(0.94756rem,1.5vw,1.77663rem)] font-medium font-title cursor-pointer"
                 onClick={() => toggleDropdown(index)}
               >
                 {item.title}
