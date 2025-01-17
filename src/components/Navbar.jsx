@@ -23,26 +23,26 @@ const Navbar = () => {
   
             <div className="items-center space-x-8 hidden md:flex">
               
-              <a href='/#about' className={({ isActive }) =>
+              <Link to='/#about' className={({ isActive }) =>
                 `lg:text-[0.83331rem] 2xl:text-[0.9375rem] font-medium font-title text-[#787878] leading-normal ${
                 isActive ? "font-extrabold" : "font-medium"
                 }`}>
                 About
-              </a>
+              </Link>
               
-              <a to='/#service' className={({ isActive }) =>
+              <Link to='/#service' className={({ isActive }) =>
                 `text-[0.83331rem] font-medium font-title text-[#535353] leading-normal ${
                 isActive ? "font-extrabold" : "font-medium"
                 }`}>
                 Service
-              </a>
+              </Link>
               
-              <a to='/#blog' className={({ isActive }) =>
+              <Link to='/#blog' className={({ isActive }) =>
                 `text-[0.83331rem] font-medium font-title text-[#535353] leading-normal ${
                 isActive ? "font-extrabold" : "font-medium"
                 }`}>
                 Blog
-              </a>
+              </Link>
               
               <Link to="/letstalk"
                   className="flex items-center justify-center w-[110px] h-[30px] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"
