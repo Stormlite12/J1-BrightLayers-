@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 
 const Navbar = () => {
+  
     return (
       <div className="md:flex md:w-full justify-between items-center navbar-area">          
             <svg width="228" height="14" viewBox="0 0 228 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,26 +24,26 @@ const Navbar = () => {
   
             <div className="items-center space-x-8 hidden md:flex">
               
-              <Link to='/#about' className={({ isActive }) =>
+              <a href='/#about' className={({ isActive }) =>
                 `lg:text-[0.83331rem] 2xl:text-[0.9375rem] font-medium font-title text-[#787878] leading-normal ${
                 isActive ? "font-extrabold" : "font-medium"
                 }`}>
                 About
-              </Link>
+              </a>
               
-              <Link to='/#service' className={({ isActive }) =>
-                `text-[0.83331rem] font-medium font-title text-[#535353] leading-normal ${
+              <a href='/#service' className={({ isActive }) =>
+                `text-[0.83331rem] font-medium font-title text-[#535353] leading-normal scroll-link ${
                 isActive ? "font-extrabold" : "font-medium"
                 }`}>
                 Service
-              </Link>
+              </a>
               
-              <Link to='/#blog' className={({ isActive }) =>
+              <a href='/#blog' className={({ isActive }) =>
                 `text-[0.83331rem] font-medium font-title text-[#535353] leading-normal ${
                 isActive ? "font-extrabold" : "font-medium"
                 }`}>
                 Blog
-              </Link>
+              </a>
               
               <Link to="/letstalk"
                   className="flex items-center justify-center w-[110px] h-[30px] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"

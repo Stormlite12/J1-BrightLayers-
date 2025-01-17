@@ -17,6 +17,7 @@ import BlogSpot from "../components/BlogSpot.jsx";
 import Footer from "../components/Footer.jsx";
 
 function Home() {
+
   return (
     <div className="w-full h-auto bg-[#ecf0f1] z-[-1] no-scrollbar">
       <div
@@ -110,7 +111,6 @@ function Home() {
   <a
     href="#examples"
     className="w-[9.4375rem] h-[1.75rem] float-right text-[#545454] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4"
-    id="service"
   >
     check services
   </a>
@@ -155,31 +155,29 @@ function Home() {
   <a
     href="#examples"
     className="w-[9.4375rem] h-[1.75rem] float-right text-[#545454] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4"
-    id="service"
+    
   >
     check services
   </a>
 </div>
 
-      <div className="lg:hidden w-full h-auto flex mt-[8rem]">
+      <div className="lg:hidden w-full h-auto flex mt-[8rem]" >
         <img
           src={rectangleMobile}
           alt="Mobile View"
           className="object-cover w-full h-full"
         />
-      </div>
+      </div >
 
-      <div className="mx-auto max-w-[80rem] md:block flex flex-col items-center justify-center mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] md:ml-[7.55rem] xl:mt-[16.04rem] xl:ml-[8.49rem]">
-        
-      </div>
+    
 
-      <div className="mx-auto max-w-[90rem] flex flex-row md:items-center md:justify-between">
+      <div className="relative mx-auto max-w-[90rem] h-auto flex flex-row md:items-center md:justify-between mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] space-x-10 "  >
        
-        <div className="relative  ">
-        <div className="w-[70%] md:w-[32rem] md:ml-[8.625rem] mx-auto h-[3.98444rem] text-center text-[#303338] text-[1.43756rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
+        <div className="relative" >
+        <div className="w-[70%]  md:w-[32rem] md:ml-[8.625rem] mx-auto h-[3.98444rem] text-center text-[#303338] text-[1.43756rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
             md:text-left md:h-[6.34263rem]  md:text-[2.28831rem] md:leading-[2.70025rem] md:tracking-[0.02288rem]  
             xl:h-[7.13544rem] xl:text-[2.57438rem] xl:leading-[3.03775rem] xl:tracking-[0.02575rem]"
-        >Service We Provide For Your Brand
+            >Service We Provide For Your Brand
           <span className="text-[#303338] md:text-[2.28831rem] md:leading-[2.70025rem] md:tracking-[0.02288rem] font-pSans font-semibold  ">
             {" "}
           </span>
@@ -188,12 +186,17 @@ function Home() {
           </span>
           <AnimatedLogo />
         </div>
-        
+
+        <div className="">
         <DropDown />
         </div>
+     
+        </div>
 
-        <div className="hidden lg:flex md:w-[25.97225rem] lg:w-[26rem] xl:w-[29.21875rem] h-full md:mr-[4rem] xl:mr-[6rem]">
-          <img src={rectangle} alt="image" className="w-auto" />
+
+
+        <div className="hidden  lg:flex md:w-[25.97225rem] lg:w-[26rem] xl:w-[29.21875rem] h-full md:mr-[4rem] xl:mr-[6rem]">
+          <img src={rectangle} alt="image" className="w-auto" id="service"/>
         </div>
       </div>
 
@@ -239,7 +242,7 @@ function Home() {
 
       <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]">
         <FounderBio />
-        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] max-w-[80%] mx-auto">
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] max-w-[80%] mx-auto" id="blog">
           <BlogSpot />
         </div>
       </div>
