@@ -70,7 +70,7 @@ function Home() {
 
       <div className="w-full mt-[5.43rem] md:mt-[6.15rem] mac:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[4.63rem] mac:mb-[5.79rem] xl:mb-[6.51rem]
        flex justify-end">
-        <img src={home1} alt="" className="w-full h-auto  
+        <img src={home1} alt="" className="w-full h-auto max-w-[90%]
         lg:max-w-[52rem] mac:max-w-[60rem] lap:max-w-[62.5rem] xl:max-w-[67.5rem] 2xl:max-w-[70.5rem] 3xl:max-w-[82.5rem] 
          "/>
       </div>
