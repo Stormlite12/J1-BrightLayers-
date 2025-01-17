@@ -1,13 +1,17 @@
-import Home from "./pages/Home.jsx"
-import LetsTalk from "./pages/LetsTalk.jsx"
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LetsTalk from './pages/LetsTalk';
+import Home from './pages/Home'
 
 function App() {
   return (
-    <>
-      <Home />
-      {/* <LetsTalk/> */}
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/LetsTalk" element={<LetsTalk />} />
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
+

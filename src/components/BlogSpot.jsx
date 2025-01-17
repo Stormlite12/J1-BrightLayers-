@@ -36,11 +36,13 @@ function BlogSpot() {
     }, []);
     return (
 
-<div className='mt-[6.91rem] mx-auto mb-[10rem]'>
-<p className="mx-auto text-center font-pSans w-[14.94719rem] h-[1.12506rem] font-semibold text-[0.96431rem] leading-[1.13794rem] tracking-[0.00963rem]">Blog</p>
-<div className='max-w-[1280px] mx-auto flex items-center justify-between mt-[2.57rem] space-x-[1.75rem] overflow-x-scroll no-scrollbar scroll-smooth over'>
+<div className='mt-[6.91rem] w-auto mx-auto mb-[10rem]'>
+<p className="mx-auto text-center font-pSans w-[14.94719rem] h-[1.12506rem] font-semibold text-[clamp(1.83069rem,1.5vw,3.4325rem)] leading-[1.13794rem] tracking-[0.00963rem]">Blog</p>
+<div className='mx-auto flex items-center justify-between mt-[2.57rem] space-x-[1.75rem] overflow-x-scroll no-scrollbar scroll-smooth over'>
     {posts.map((post, index) => (
-        <div key={index} className="w-[12.84888rem] h-[12.14rem] lg:w-[22.03706rem] lg:h-[27.64rem]">
+        <div key={index} className="w-[12.84888rem] h-[12.14rem] 
+                                    lg:w-[33rem] lg:h-[18rem]
+        ">
             <a href={post.link} target="_blank" rel="noopener noreferrer">
             <div className="relative w-full h-[83%]">
                 <img

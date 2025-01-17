@@ -235,7 +235,7 @@ function Home() {
 
       <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]">
         <FounderBio />
-        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem]">
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] max-w-[80%] mx-auto">
           <BlogSpot />
         </div>
       </div>

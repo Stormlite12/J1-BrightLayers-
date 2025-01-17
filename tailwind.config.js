@@ -9,7 +9,10 @@ export default {
       'sm':'410px',
       'md': '720px',
       'lg': '1024px',
+      'lap':'1366px',
       'xl': '1440px',
+      '2xl':'1536px',
+      '3xl':'1920px',
       'mac': '1280px'
       // => @media (min-width: 1440px) { ... }
     },
