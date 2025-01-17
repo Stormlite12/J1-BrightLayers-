@@ -64,7 +64,7 @@ function Home() {
         </div>
       </section>
 
-   
+      <div id="about" ></div>
 
       <div className="w-full flex flex-col justify-center items-center">
 
@@ -170,6 +170,7 @@ function Home() {
       </div >
 
     
+      <div id="service"></div>
 
       <div className="relative mx-auto max-w-[90rem] h-auto flex flex-row md:items-center md:justify-between mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] space-x-10 "  >
        
@@ -196,7 +197,7 @@ function Home() {
 
 
         <div className="hidden  lg:flex md:w-[25.97225rem] lg:w-[26rem] xl:w-[29.21875rem] h-full md:mr-[4rem] xl:mr-[6rem]">
-          <img src={rectangle} alt="image" className="w-auto" id="service"/>
+          <img src={rectangle} alt="image" className="w-auto" />
         </div>
       </div>
 
@@ -240,9 +241,11 @@ function Home() {
         Meet Our Founder
       </div>
 
-      <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]">
+      <div className="max-w-[90%] mx-auto mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]" >
         <FounderBio />
-        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] max-w-[80%] mx-auto" id="blog">
+
+        <div id="blog"></div>
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] max-w-[80%] mx-auto" >
           <BlogSpot />
         </div>
       </div>
