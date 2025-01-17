@@ -69,7 +69,9 @@ function Home() {
 
       <div className="w-full mt-[5.43rem] md:mt-[6.15rem] mac:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[4.63rem] mac:mb-[5.79rem] xl:mb-[6.51rem]
        flex justify-end">
-        <img src={home1} alt="" className="w-full h-auto max-w-[90%] lg:max-w-[52rem] mac:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem] "/>
+        <img src={home1} alt="" className="w-full h-auto  
+        lg:max-w-[52rem] mac:max-w-[60rem] lap:max-w-[62.5rem] xl:max-w-[67.5rem] 2xl:max-w-[70.5rem] 3xl:max-w-[82.5rem] 
+         "/>
       </div>
       
 
@@ -104,15 +106,16 @@ function Home() {
             </div>
 
       </div>
-      <div className="hidden mac:-translate-y-20 md:flex justify-end mac:mr-20" >
-        <a
-          href="#examples"
-          className="w-[9.4375rem] h-[1.75rem] text-[#545454] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block "
-          id="service"
-        >
-          check services
-        </a>
-      </div>
+      <div className="max-w-[80rem] mx-auto hidden mac:-translate-y-20 md:block">
+  <a
+    href="#examples"
+    className="w-[9.4375rem] h-[1.75rem] float-right text-[#545454] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4"
+    id="service"
+  >
+    check services
+  </a>
+</div>
+
       <div
         className="w-full mt-[10rem] md:mt-[7.69rem] lg:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[8.65rem]
        flex justify-start"
@@ -120,7 +123,7 @@ function Home() {
         <img
           src={image}
           alt=""
-          className="w-full h-auto max-w-[90%] lg:max-w-[52rem] mac:max-w-[60rem] xl:max-w-[67.5rem] md:max-h-[10.27775rem] xl:max-h-[11.5625rem]"
+          className="w-full h-auto max-w-[90%] lg:max-w-[52rem] mac:max-w-[60rem] lap:max-w-[62.5rem] xl:max-w-[67.5rem] 2xl:max-w-[70.5rem] 3xl:max-w-[82.5rem] "
         />
       </div>
 
@@ -148,15 +151,15 @@ function Home() {
         </div>
       </div>
 
-      <div className="hidden mac:-translate-y-20 md:flex justify-end mac:mr-20">
-        <a
-          href="#examples"
-          className="w-[9.4375rem] h-[1.75rem] text-[#535353] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4 hidden md:block  "
-          id="service"
-        >
-          check services
-        </a>
-      </div>
+      <div className="max-w-[80rem] mx-auto hidden mac:-translate-y-20 md:block">
+  <a
+    href="#examples"
+    className="w-[9.4375rem] h-[1.75rem] float-right text-[#545454] text-xl font-semibold font-title underline leading-relaxed tracking-tight mb-4"
+    id="service"
+  >
+    check services
+  </a>
+</div>
 
       <div className="lg:hidden w-full h-auto flex mt-[8rem]">
         <img
@@ -166,13 +169,17 @@ function Home() {
         />
       </div>
 
-      <div className="md:block flex flex-col items-center justify-center mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] md:ml-[7.55rem] xl:mt-[16.04rem] xl:ml-[8.49rem]">
-        <div
-          className="w-[15.996rem] h-[3.98444rem] text-center text-[#303338] text-[1.43756rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
-        md:text-left md:w-[25.46294rem] md:h-[6.34263rem]  md:text-[2.28831rem] md:leading-[2.70025rem] md:tracking-[0.02288rem]  
-        xl:w-[28.64581rem] xl:h-[7.13544rem]  xl:text-[2.57438rem] xl:leading-[3.03775rem] xl:tracking-[0.02575rem]"
-        >
-          Service We Provide For Your Brand
+      <div className="mx-auto max-w-[80rem] md:block flex flex-col items-center justify-center mt-[4.77rem] lg:mt-[11.41rem] mac:mt-[14.26rem] md:ml-[7.55rem] xl:mt-[16.04rem] xl:ml-[8.49rem]">
+        
+      </div>
+
+      <div className="mx-auto max-w-[90rem] flex flex-row md:items-center md:justify-between">
+       
+        <div className="relative  ">
+        <div className="w-[70%] md:w-[32rem] md:ml-[8.625rem] mx-auto h-[3.98444rem] text-center text-[#303338] text-[1.43756rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
+            md:text-left md:h-[6.34263rem]  md:text-[2.28831rem] md:leading-[2.70025rem] md:tracking-[0.02288rem]  
+            xl:h-[7.13544rem] xl:text-[2.57438rem] xl:leading-[3.03775rem] xl:tracking-[0.02575rem]"
+        >Service We Provide For Your Brand
           <span className="text-[#303338] md:text-[2.28831rem] md:leading-[2.70025rem] md:tracking-[0.02288rem] font-pSans font-semibold  ">
             {" "}
           </span>
@@ -181,11 +188,8 @@ function Home() {
           </span>
           <AnimatedLogo />
         </div>
-      </div>
-
-      <div className="flex flex-row md:items-center md:justify-between">
-        <div className="relative  ">
-          <DropDown />
+        
+        <DropDown />
         </div>
 
         <div className="hidden lg:flex md:w-[25.97225rem] lg:w-[26rem] xl:w-[29.21875rem] h-full md:mr-[4rem] xl:mr-[6rem]">
@@ -228,7 +232,7 @@ function Home() {
 
       <div
         className="md:mt-[9.81rem] mac:mt-[12.27rem] xl:mt-[13.8rem] text-center font-pSans w-full h-[1.3125rem] text-[1.125rem] font-semibold leading-[1.3275rem] tracking-[0.01125rem]
-            md:text-[1.90694rem] md:leading-[2.25019rem] md:font-semibold md:tracking-[0.01906rem]"
+            md:text-[clamp(1.35606rem,1.5vw,2.54263rem)] md:leading-[2.25019rem] md:font-semibold md:tracking-[0.01906rem]"
       >
         Meet Our Founder
       </div>

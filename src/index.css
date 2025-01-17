@@ -22,7 +22,9 @@
 }
 
 
-
+html {
+  font-size: 16px;
+ }
 
 :root {
     font-synthesis: none;
