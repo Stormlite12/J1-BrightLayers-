@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
     return (
@@ -43,11 +44,11 @@ const Navbar = () => {
                 Blog
               </a>
               
-              <a href="/letstalk"
+              <Link to="/letstalk"
                   className="flex items-center justify-center w-[110px] h-[30px] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"
               >
                 lets talk
-              </a>
+              </Link>
   
             </div>
   
