@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar.jsx";
-import LetsTalkFloater from "../assets/LetsTalkFloater.svg";
+// import LetsTalkFloater from "../assets/LetsTalkFloater.svg";
 import home1 from "../assets/home1.jpg";
 import image from "../assets/image.png";
 import rectangleMobile from "../assets/rectangleMobile.png";
@@ -12,9 +12,11 @@ import PeopleSaying from "../components/PeopleSaying.jsx";
 import InfiniteCarousel from "../components/InfiniteCarousel.jsx";
 import FounderBio from "../components/FounderBio.jsx";
 import FeaturesPC from "../components/FeaturesPC.jsx";
-
+import Floater from '../components/Footer.jsx'
+import FloaterForm from '../components/FloaterForm.jsx'
 import BlogSpot from "../components/BlogSpot.jsx";
 import Footer from "../components/Footer.jsx";
+import FloaterOverlay from "../components/FloaterOverlay.jsx";
 
 function Home() {
 
@@ -27,9 +29,9 @@ function Home() {
         <Navbar />
       </div>
 
-      <div className="md:hidden fixed bottom-6 right-6 bg-[#2C3E50] w-[2rem] h-[2rem] rounded-full flex items-center justify-center">
+      {/* <div className="md:hidden fixed bottom-6 right-6 bg-[#2C3E50] w-[2rem] h-[2rem] rounded-full flex items-center justify-center">
   <img src={LetsTalkFloater} className="w-[1rem] h-[1.5rem] " alt="" />
-</div>
+</div> */}
 
 
       <section className="flex w-full justify-center mt-[1.36rem] md:mt-[5.56rem] mac:mt-[6.94rem] xl:mt-[7.81rem]">
@@ -258,6 +260,15 @@ function Home() {
           <BlogSpot />
         </div>
       </div>
+
+
+      <div className="lg:hidden">
+        <FloaterOverlay />
+      </div>
+        
+      {/* <div className='md:hidden fixed bottom-6 right-6 bg-[#2C3E50] w-[2rem] h-[2rem] rounded-full flex items-center justify-center'>
+      <img src={LetsTalkFloater} className="w-[1rem] h-[1.5rem] " alt="" />
+      </div> */}
 
       <div className="className=lg:mt-[15.3rem] mac:mt-[19.12rem] xl:mt-[21.51rem] ">
         <Footer />
