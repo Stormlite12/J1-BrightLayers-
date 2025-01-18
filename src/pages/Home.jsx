@@ -36,17 +36,25 @@ function Home() {
 
       <section className="flex w-full justify-center mt-[1.36rem] md:mt-[5.56rem] mac:mt-[6.94rem] xl:mt-[7.81rem]">
         <div
-          className="w-[20.03675rem] h-[7.17894rem] text-center 
-                        sm:w-[24.3125rem] sm:text-[1.17388rem] sm:leading-[120%] sm:tracking-[0.01075rem]
-                        md:w-[56.25rem] md:h-[16.38888rem]
-                        xl:w-[63.28125rem] xl:h-[18.4375rem]"
+          className="   w-[20.03675rem] h-[7.17894rem] text-center 
+                        sm:w-[22.3125rem] sm:h-[7.99431rem]
+                        md:w-[45rem] md:h-[13.11113rem]
+                        mac:w-[56.25rem]  mac:h-[16.38888rem]
+                        lap:w-[60.02931rem]  lap:h-[17.49rem]
+                        xl:w-[63.28125rem] xl:h-[18.4375rem]
+                        2xl:w-[67.5rem] 2xl:h-[19.66669rem]
+                        3xl:w-[84.375rem] 3xl:h-[24.58331rem]"
         >
           <span
-            className="text-[#303338] text-[0.96431rem] font-semibold leading-[1.5815rem] tracking-[0.00963rem] font-pSans 
-                      sm:text-[0.99rem]
-                      md:text-[2.54631rem] md:font-medium md:leading-[3.00463rem] md:tracking-[0.02544rem] 
-                      xl:text-[2.86456rem] xl:leading-[3.38019rem] xl:tracking-[0.02863rem] "
-          >
+            className="text-[#303338] text-[0.96431rem] font-semibold leading-[164%] tracking-[0.00963rem] font-pSans 
+                      sm:text-[1.07388rem] sm:tracking-[0.01075rem]
+                      md:text-[2.03706rem] md:font-medium md:leading-[118%] md:tracking-[0.02038rem] 
+                      mac:text-[2.54631rem] mac:tracking-[0.02544rem]
+                      lap:text-[2.71738rem] lap:tracking-[0.02719rem]
+                      xl:text-[2.86456rem] xl:tracking-[0.02863rem]
+                      2xl:text-[3.05556rem] 2xl:tracking-[0.03056rem] 
+                      3xl:text-[3.81944rem] 3xl:tracking-[0.03819rem]"
+                >
             We are Bright Layers, a dynamic social media agency since 2019,
             dedicated to elevating brands through creative content and strategic
             digital marketing
@@ -73,7 +81,7 @@ function Home() {
       <div className="w-full mt-[5.43rem] md:mt-[6.15rem] mac:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[4.63rem] mac:mb-[5.79rem] xl:mb-[6.51rem]
        flex justify-end">
         <img src={home1} alt="" className="w-full h-auto max-w-[90%]
-        lg:max-w-[52rem] mac:max-w-[60rem] lap:max-w-[62.5rem] xl:max-w-[67.5rem] 2xl:max-w-[70.5rem] 3xl:max-w-[82.5rem] 
+        lg:max-w-[48rem] mac:max-w-[60rem] lap:max-w-[64.03rem] xl:max-w-[67.5rem] 2xl:max-w-[72rem] 3xl:max-w-[90rem] 
          "/>
       </div>
       
@@ -84,17 +92,26 @@ function Home() {
       <div className="w-[11.197rem] h-[1.01794rem] text-center text-[0.83719rem] leading-[0.00856rem] tracking-[0.00856rem]
                       sm:text-[0.95456rem]
                       md:w-[40.13888rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
-                      xl:w-[45.15625rem] xl:h-[2.13544rem] xl:text-[1.30206rem] xl:leading-[1.53644rem] xl:tracking-[0.013rem]
+                      lg:w-[31.46294rem] lg:h-[1.9rem] lg:text-[clamp(0.92594rem,1.5vw,1.73613rem)]
+                      mac:w-[39.45369rem] mac:tracking-[0.01156rem]
+                     lap:w-[42.1813rem] lap:tracking-[0.01238rem]
+                      xl:w-[45.15625rem] xl:h-[2.13544rem] xl:leading-[1.53644rem] xl:tracking-[0.013rem]
+                      2xl:w-[47.94444rem]
+                      3xl:w-[59.93056rem]
                     text-[#da5428] font-semibold font-pSans capitalize "
       >What Do We Do?</div>
 
 
 
-      <div className="font-title text-center md:text-left mt-[0.91rem] text-[#545454]
-             w-[85%] h-[11.83988rem] text-[0.7rem] font-medium leading-[130.238%] tracking-[0.00813rem]
+      <div className="font-title text-center md:text-left mt-[0.91rem] text-[#545454] md:mt-[0.3rem] leading-[1.30238] 
+             w-[85%] h-[11.83988rem] text-[0.7rem] font-medium lg:leading-[1.30238] tracking-[0.00813rem]
              sm:w-[85%] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem]
-             md:w-[40.13888rem] md:h-[16.85rem] md:text-[1.15rem] md:font-medium md:leading-[1.5rem] md:tracking-[0.0116rem] md:mt-[0.51rem] 
-             xl:w-[45.15625rem] xl:h-[18rem] xl:text-[1.3rem] xl:leading-[1.7rem] xl:tracking-[0.013rem] xl:mt-[0.57rem]"
+             lg:w-[31.46294rem] lg:h-[13.4815rem] lg:text-[clamp(0.92594rem,1.45vw,1.73613rem)] lg:tracking-[0.00825rem]
+             mac:w-[39.45369rem] mac:h-[16.85188rem] mac:tracking-[0.01156rem]
+             lap:w-[42.1813rem] lap:h-[17.98406rem] lap:tracking-[0.01238rem]
+             xl:w-[45.15625rem] xl:h-[18.95831rem]  xl:tracking-[0.013rem] 
+             2xl:w-[47.94444rem] 2xl:h-[20.22225rem]  2xl:tracking-[0.01388rem]
+             3xl:w-[59.93056rem] 3xl:h-[25.27775rem] 3xl:tracking-[0.01738rem]"
             >
               In the last 5 years, the country has seen trendsetting marketing campaigns —
               but what&apos;s missing is &quot;the beyonds&quot; of a campaign. Does it end after
@@ -125,16 +142,20 @@ function Home() {
         <img
           src={image}
           alt=""
-          className="w-full h-auto max-w-[90%] lg:max-w-[52rem] mac:max-w-[60rem] lap:max-w-[62.5rem] xl:max-w-[67.5rem] 2xl:max-w-[70.5rem] 3xl:max-w-[82.5rem] "
+          className="w-full h-auto max-w-[90%] lg:max-w-[48rem] mac:max-w-[60rem] lap:max-w-[64.03rem] xl:max-w-[67.5rem] 2xl:max-w-[72rem] 3xl:max-w-[90rem]  "
         />
       </div>
 
       <div className="w-full flex flex-col justify-center items-center md:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[13.33rem] mt-[5.06rem]">
         <div
-          className="w-[11.197rem] h-[1.01794rem] text-center text-[0.85719rem] leading-[0.00856rem] tracking-[0.00856rem]
+          className="w-[11.197rem] h-[1.01794rem] text-center text-[0.85719rem] md:text-left leading-[0.00856rem] tracking-[0.00856rem]
                       sm:text-[0.95456rem] 
-                      md:w-[40.13888rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
-                      xl:w-[45.15625rem] xl:h-[2.13544rem] xl:text-[1.30206rem] xl:leading-[1.53644rem] xl:tracking-[0.013rem]
+                      lg:w-[31.46294rem] lg:h-[1.9rem] lg:text-[clamp(0.92594rem,1.5vw,1.73613rem)]
+                      mac:w-[39.45369rem] mac:tracking-[0.01156rem]
+                     lap:w-[42.1813rem] lap:tracking-[0.01238rem]
+                      xl:w-[45.15625rem] xl:h-[2.13544rem] xl:leading-[1.53644rem] xl:tracking-[0.013rem]
+                      2xl:w-[47.94444rem]
+                      3xl:w-[59.93056rem]
                     text-[#da5428] font-semibold font-pSans capitalize"
         >
           How Do We Do It?
@@ -142,9 +163,13 @@ function Home() {
 
         <div
           className="font-title text-center md:text-left mt-[0.91rem] w-[85%] h-[11.84rem] text-[0.7rem] font-medium leading-[130%] tracking-[0.007rem] 
-          sm:w-[85%] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem]
-          md:w-[40.14rem] md:h-[8.8rem] md:text-[1.16rem] md:font-medium md:leading-[1.51rem] md:tracking-[0.012rem] md:mt-[0.51rem] 
-          xl:w-[45.16rem] xl:h-[9.9rem] xl:text-[1.3rem] xl:leading-[1.7rem] xl:tracking-[0.013rem] xl:mt-[0.57rem] text-[#545454]"
+          sm:w-[85%] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem] lg:leading-[1.30238]
+         lg:w-[31.46294rem] lg:h-[13.4815rem] lg:text-[clamp(0.92594rem,1.45vw,1.73613rem)] lg:tracking-[0.00825rem]
+             mac:w-[39.45369rem] mac:h-[16.85188rem] mac:tracking-[0.01156rem]
+             lap:w-[42.1813rem] lap:h-[17.98406rem] lap:tracking-[0.01238rem]
+             xl:w-[45.15625rem] xl:h-[18.95831rem]  xl:tracking-[0.013rem] 
+             2xl:w-[47.94444rem] 2xl:h-[20.22225rem]  2xl:tracking-[0.01388rem]
+             3xl:w-[59.93056rem] 3xl:h-[25.27775rem] 3xl:tracking-[0.01738rem] xl:mt-[0.57rem] text-[#545454]"
         >
           Our approach is different - a boutique-style agency that prioritizes
           understanding our clients as intimately as our own business. This
