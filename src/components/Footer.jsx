@@ -5,7 +5,7 @@ import logo from '../assets/logo.png'
  
 function Footer() {
   return (
-    <div className='bg-[#2C3E50] w-full h-[28.44rem] md:h-[20rem]'>
+    <div className='bg-[#2C3E50] w-full h-[30.44rem] md:h-[20rem]'>
     <div className='flex flex-col md:flex-row w-[80%] mx-auto'>
        
         <div className='flex flex-row space-x-[1.26rem] items-center justify-center mt-[5.86rem]'>
