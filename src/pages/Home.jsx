@@ -287,7 +287,7 @@ function Home() {
 
 
         <div id="blog"></div>
-        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto w-[90%] " >
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto lg:max-w-[90%] mac:max-w-[88%] lap:max-w-[85%] 3xl:max-w-[78%] " >
           <BlogSpot />
         </div>
       </div>
