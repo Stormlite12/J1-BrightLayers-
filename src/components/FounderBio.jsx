@@ -41,7 +41,7 @@ function FounderBio() {
             alt=""
           />
         </div>
-        <div className="mt-[3rem] lg:mt-0 lg:p-8 w-[90%] mx-auto relative ">
+        <div className="mt-[3rem] lg:-mt-2 lg:p-8 w-[90%] mx-auto relative ">
           <div
             className=" w-[11.4375rem] h-[1.625rem] text-[#565656] font-pSans text-[1.4626rem] font-semibold leading-[99%] tracking-[-0.0146rem]
                           lg:text-left
