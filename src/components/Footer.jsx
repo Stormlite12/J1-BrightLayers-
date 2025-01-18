@@ -35,19 +35,19 @@ function Footer() {
         </div>
 
         <div className='flex flex-row  md:space-x-[10rem] mt-[3.55rem] justify-between items-center md:items-stretch md:text-center md:ml-auto'>
-                <div className="w-[5.29744rem] h-[5.229rem] mac:w-[5.78706rem] mac:h-[1.34256rem] xl:w-[6.51044rem] xl:h-[1.51044rem] space-y-3 flex flex-col">
-                <div className="text-orange-500 text-[0.86681rem] xl:text-[1.03969rem] font-bold font-title leading-normal mb-[0.43rem]">Socials</div>
-                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] mac:text-[0.74075rem] xl:text-[0.83331rem] font-normal font-title leading-normal no-underline hover:underline">Instagram</a>
-                <a href="https://www.facebook.com/thebrightlayer" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] mac:text-[0.74075rem]  xl:text-[0.83331rem] font-normal font-title leading-normal no-underline hover:underline">Facebook</a>
-                <a href="https://x.com/thebrightlayers" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] mac:text-[0.74075rem]  xl:text-[0.83331rem] font-normal font-title leading-normal no-underline hover:underline">Twitter</a>
-                <a href="https://www.linkedin.com/company/the-bright-layers/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem]  xl:text-[0.83331rem] mac:text-[0.74075rem] font-normal font-title leading-normal no-underline hover:underline">LinkedIn</a>
+                <div className="w-[5.29744rem] h-[5.229rem] mac:w-[5.78706rem] lg:w-auto space-y-3 flex flex-col">
+                    <div className="text-orange-500 text-[0.86681rem] lg:text-[clamp(0.73931rem,1.5vw,1.38625rem)] font-bold font-title leading-normal mb-[0.43rem] md:mb-0 md:mt-1">Socials</div>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Instagram</a>
+                    <a href="https://www.facebook.com/thebrightlayer" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Facebook</a>
+                    <a href="https://x.com/thebrightlayers" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Twitter</a>
+                    <a href="https://www.linkedin.com/company/the-bright-layers/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">LinkedIn</a>
                 </div>
 
 
-                <div className='w-[7.54175rem] xl:w-[9.84375rem] h-[5.229rem] md:h-[2rem] space-y-3 flex flex-col'>
-                <div className="text-orange-500 text-[0.86681rem] xl:text-[1.03969rem] font-bold font-title leading-normal ">Connect With Us</div>
-                <a href="tel:+919546898080" className="text-white text-[0.743rem] mac:text-[0.74075rem] xl:text-[0.83331rem] font-normal font-title leading-normal no-underline hover:underline">+91 9546898080</a>
-                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=thebrightlayersmedia@gmail.com" className="text-white text-[0.743rem] mac:text-[0.74075rem]  xl:text-[0.83331rem] font-normal font-title leading-normal no-underline hover:underline">brightlayersmail.com</a>
+                <div className='w-[7.54175rem] lg:w-auto h-auto space-y-3 flex flex-col'>
+                <div className="text-orange-500 text-[0.86681rem] lg:text-[clamp(0.73931rem,1.5vw,1.38625rem)] font-bold font-title leading-normal ">Connect With Us</div>
+                <a href="tel:+919546898080" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">+91 9546898080</a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=thebrightlayersmedia@gmail.com" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">brightlayersmail.com</a>
                 </div>
                 
                
@@ -69,7 +69,7 @@ function Footer() {
                   md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto lg:w-auto
                   xl:w-[14.07406rem] xl:'>
                    Copyright @TheBrightLayers
-                  </div>
+                  </div>  
                   <div className='md:absolute md:bottom-0 md:right-16 w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto font-normal leading-normal font-title items-center text-white'>
                   Legal
                   </div>

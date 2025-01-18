@@ -3,8 +3,13 @@ import rectangle2 from "../assets/rectangle2.png"
 import LetsTalkForm from "../components/LetsTalkForm"
 import Footer from "../components/Footer"
 import BlogSpot from '../components/BlogSpot.jsx'
-
+import { useEffect } from "react"
 function LetsTalk() {
+  useEffect(() => {
+    // Set scroll position to top when this component is rendered
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="">
         {/* <Navbar/> */}

@@ -1,8 +1,17 @@
-import { Link } from "react-router-dom"
+
+import { NavLink } from "react-router-dom";
+
+import {HashLink} from "react-router-hash-link"
+
+const smoothScroll = (el) => {
+  el.scrollIntoView({ behavior: "smooth", block: "start" });
+};
+
 
 const Navbar = () => {
   
     return (
+      
       <div className="md:flex md:w-full justify-between items-center navbar-area">          
             <svg width="228" height="14" viewBox="0 0 228 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M99.9387 5.37077C100.887 5.37077 101.836 5.38108 102.781 5.36391C103.156 5.35704 103.314 5.5047 103.3 5.8687C103.235 7.71617 102.774 9.41598 101.382 10.7381C100.437 11.6309 99.2994 12.1048 98.007 12.273C96.7936 12.431 95.625 12.3108 94.5045 11.8472C92.5349 11.0368 91.3835 9.5293 90.9848 7.47236C90.7235 6.13311 90.8198 4.79043 91.3869 3.52674C92.2668 1.55908 93.8101 0.443037 95.924 0.0962071C97.213 -0.113265 98.4676 0.017226 99.674 0.508283C101.193 1.1264 102.286 2.17719 102.857 3.74308C102.987 4.10021 102.891 4.19979 102.527 4.18949C101.812 4.16889 101.097 4.17919 100.382 4.18606C100.172 4.18606 100.035 4.12081 99.9112 3.93194C99.3131 3.03911 98.4469 2.60987 97.3883 2.53432C96.2884 2.45534 95.3088 2.75066 94.556 3.56794C93.7689 4.41957 93.5145 5.45319 93.628 6.60357C93.6933 7.27662 93.8926 7.88443 94.2845 8.43387C95.0853 9.55334 96.2299 9.91391 97.5292 9.80402C98.7632 9.701 99.6946 9.08289 100.21 7.91877C100.389 7.517 100.368 7.47923 99.9352 7.47579C98.9591 7.47579 97.9829 7.46549 97.0102 7.47923C96.6974 7.48266 96.5599 7.38308 96.5736 7.05685C96.5943 6.64477 96.5977 6.2327 96.5736 5.82062C96.5496 5.44289 96.7146 5.3536 97.0583 5.36047C98.0207 5.37764 98.9831 5.36734 99.9421 5.36734L99.9387 5.37077Z" fill="#1A3F60"/>
@@ -24,32 +33,26 @@ const Navbar = () => {
   
             <div className="items-center space-x-8 hidden md:flex">
               
-              <a href='/#about' className={({ isActive }) =>
-                `lg:text-[0.83331rem] 2xl:text-[0.9375rem] font-medium font-title text-[#787878] leading-normal ${
-                isActive ? "font-extrabold" : "font-medium"
-                }`}>
-                About
-              </a>
+              <HashLink to='/#about' scroll={smoothScroll} className={({ isActive }) =>
+                 `${isActive ? "font-extrabold" : "font-medium"}`}>
+                <h1 className="text-[clamp(0.66669rem,1.5vw,1.25rem)] font-medium font-title text-[#787878] leading-normal">About</h1>
+              </HashLink>
               
-              <a href='/#service' className={({ isActive }) =>
-                `text-[0.83331rem] font-medium font-title text-[#535353] leading-normal scroll-link ${
-                isActive ? "font-extrabold" : "font-medium"
-                }`}>
-                Service
-              </a>
+              <HashLink to='/#service' scroll={smoothScroll} className={({ isActive }) =>
+                `${isActive ? "font-extrabold" : "font-medium"}`}>
+                <h1 className="text-[clamp(0.66669rem,1.5vw,1.25rem)] font-medium font-title text-[#787878] leading-normal ">Service</h1>
+              </HashLink>
               
-              <a href='/#blog' className={({ isActive }) =>
-                `text-[0.83331rem] font-medium font-title text-[#535353] leading-normal ${
-                isActive ? "font-extrabold" : "font-medium"
-                }`}>
-                Blog
-              </a>
+              <HashLink to='/#blog'  className={({ isActive }) =>
+                `${ isActive ? "font-extrabold" : "font-medium"}`}>
+                <h1 className="text-[clamp(0.66669rem,1.5vw,1.25rem)] font-medium font-title text-[#787878] leading-normal ">Blog</h1>
+              </HashLink>
               
-              <Link to="/letstalk"
-                  className="flex items-center justify-center w-[110px] h-[30px] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"
+              <NavLink to="/letstalk"
+                  className="flex items-center justify-center w-[110px] h-[30px] text-[clamp(0.66669rem,1.5vw,1.25rem)] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title  shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"
               >
                 lets talk
-              </Link>
+              </NavLink>
   
             </div>
   
