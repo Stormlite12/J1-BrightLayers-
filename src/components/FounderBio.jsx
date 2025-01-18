@@ -27,7 +27,7 @@ function FounderBio() {
   }, []);
 
   return (
-    <div className="flex flex-col lg:flex-row w-full  justify-center lg:space-x-10">
+    <div className="flex flex-col lg:flex-row w-full  justify-center lg:-space-x-8 mac:space-x-1 lap:space-x-2 xl:space-x-4 3xl:space-x-6">
       <div className="lg:flex flex-row">
         <div className="relative w-full h-auto" ref={targetRef}>
           <img
@@ -41,7 +41,7 @@ function FounderBio() {
             alt=""
           />
         </div>
-        <div className="mt-[3rem] lg:-mt-2 lg:p-8 w-[90%] mx-auto relative ">
+        <div className="mt-[3rem] lg:-mt-4 lg:p-8 w-[90%] mx-auto relative ">
           <div
             className=" w-[11.4375rem] h-[1.625rem] text-[#565656] font-pSans text-[1.4626rem] font-semibold leading-[99%] tracking-[-0.0146rem]
                           lg:text-left
