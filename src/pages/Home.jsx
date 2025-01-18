@@ -281,13 +281,13 @@ function Home() {
       </div>
 
       <div className="w-full mt-[3.63rem] md:mt-[5.5rem] mac:mt-[6.56rem] xl:mt-[7.38rem]" >
-        <div className="w-[90%] mx-auto">
+        <div className="">
         <FounderBio />
         </div>
 
 
         <div id="blog"></div>
-        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto w-[80%]" >
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto w-[90%] " >
           <BlogSpot />
         </div>
       </div>
