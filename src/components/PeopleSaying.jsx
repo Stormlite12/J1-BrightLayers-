@@ -12,7 +12,7 @@ function PeopleSaying() {
         What Are People Saying
       </div>
     </div>
-    <div className="w-auto h-auto mt-[2.08rem] md:mt-[6.42rem] xl:mt-[4.72rem] mx-auto ">
+    <div className="w-auto h-auto mt-[2.08rem] md:mt-[6.42rem] xl:mt-[4.72rem] mx-auto lg:w-[90%] ">
       <div className="flex flex-row space-x-[.4rem] md:space-x-[5rem] justify-evenly md:justify-between">
         <img
           src={image26}
