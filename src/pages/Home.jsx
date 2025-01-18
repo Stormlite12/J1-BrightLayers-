@@ -77,7 +77,7 @@ function Home() {
 
       <div className="w-full flex flex-col justify-center items-center">
 
-      <div className="w-full mt-[5.43rem] md:mt-[6.15rem] mac:mt-[7.69rem] xl:mt-[8.65rem] mb-[4.93rem] md:mb-[4.63rem] mac:mb-[5.79rem] xl:mb-[6.51rem]
+      <div className="w-full mt-[5.43rem] md:mt-[6.15rem] mac:mt-[7.69rem] xl:mt-[8.65rem] md:mb-[4.63rem] mac:mb-[5.79rem] xl:mb-[6.51rem]
        flex justify-end">
         <img src={home1} alt="" className="w-full h-auto max-w-[90%]
         lg:max-w-[48rem] mac:max-w-[60rem] lap:max-w-[64.03rem] xl:max-w-[67.5rem] 2xl:max-w-[72rem] 3xl:max-w-[90rem] 
@@ -88,7 +88,7 @@ function Home() {
       <div>
         
       </div>
-      <div className="w-[11.197rem] h-[1.01794rem] text-center text-[0.83719rem] leading-[0.00856rem] tracking-[0.00856rem]
+      <div className="w-[11.197rem] h-[1.01794rem] mt-[5.49rem] lg:mt-0  text-center text-[0.83719rem] leading-[0.00856rem] tracking-[0.00856rem]
                       sm:text-[0.95456rem]
                       md:w-[40.13888rem] md:h-[1.89813rem] md:text-left md:text-[1.15744rem] md:leading-[1.36575rem] md:tracking-[0.01156rem]
                       lg:w-[31.46294rem] lg:h-[1.9rem] lg:text-[clamp(0.92594rem,1.5vw,1.73613rem)]
@@ -103,8 +103,8 @@ function Home() {
 
 
       <div className="font-title text-center md:text-left mt-[0.91rem] text-[#545454] md:mt-[0.3rem] leading-[1.30238] 
-             w-[85%] h-[11.83988rem] text-[0.7rem] font-medium lg:leading-[1.30238] tracking-[0.00813rem]
-             sm:w-[85%] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem]
+             w-[85%] h-[6.18rem] text-[0.69644rem] font-medium lg:leading-[1.30238] tracking-[0.00694rem]
+             sm:w-[85%] sm:text-[0.77556rem] sm:leading-[1.2rem] sm:tracking-[0.00775rem]
              lg:w-[31.46294rem] lg:h-[13.4815rem] lg:text-[clamp(0.92594rem,1.45vw,1.73613rem)] lg:tracking-[0.00825rem]
              mac:w-[39.45369rem] mac:h-[16.85188rem] mac:tracking-[0.01156rem]
              lap:w-[42.1813rem] lap:h-[17.98406rem] lap:tracking-[0.01238rem]
@@ -135,7 +135,7 @@ function Home() {
 </div>
 
       <div
-        className="w-full mt-[10rem] md:mt-[7.69rem] lg:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[8.65rem]
+        className="w-full mt-[10.61rem] md:mt-[7.69rem] lg:mt-[9.48rem] mac:mt-[11.85rem] xl:mt-[8.65rem]
        flex justify-start"
       >
         <img
@@ -161,7 +161,7 @@ function Home() {
         </div>
 
         <div
-          className="font-title text-center md:text-left mt-[0.91rem] w-[85%] h-[11.84rem] text-[0.7rem] font-medium leading-[130%] tracking-[0.007rem] 
+          className="font-title text-center md:text-left mt-[0.91rem] w-[85%] h-[5.49rem] text-[0.7rem] font-medium leading-[130%] tracking-[0.007rem] 
           sm:w-[85%] sm:text-[0.9rem] sm:leading-[1.2rem] sm:tracking-[0.009rem] lg:leading-[1.30238]
          lg:w-[31.46294rem] lg:h-[13.4815rem] lg:text-[clamp(0.92594rem,1.45vw,1.73613rem)] lg:tracking-[0.00825rem]
              mac:w-[39.45369rem] mac:h-[16.85188rem] mac:tracking-[0.01156rem]
@@ -187,7 +187,7 @@ function Home() {
   </a>
 </div>
 
-      <div className="lg:hidden w-full h-auto flex mt-[8rem]" >
+      <div className="lg:hidden w-full h-auto flex mt-[6rem]" >
         <img
           src={rectangleMobile}
           alt="Mobile View"
