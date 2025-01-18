@@ -4,7 +4,7 @@ import founderImg from "../assets/founderImg.png";
 function FounderBio() {
   const [isVisible, setIsVisible] = useState(false);
   const targetRef = useRef(null);
-
+ 
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {
