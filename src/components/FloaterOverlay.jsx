@@ -13,10 +13,10 @@ const FloaterOverlay = () => {
     <>
       {/* Floating Icon */}
       <div
-        className="fixed bottom-6 right-6 bg-[#2C3E50] w-[2rem] h-[2rem] rounded-full flex items-center justify-center cursor-pointer"
+        className="fixed bottom-6 right-6 bg-[#2C3E50] w-[4rem] h-[4rem] rounded-full flex items-center justify-center cursor-pointer"
         onClick={toggleFormVisibility}
       >
-        <img src={LetsTalkFloater} alt="Floater Icon" className="w-[1rem] h-[1.5rem]" />
+        <img src={LetsTalkFloater} alt="Floater Icon" className="w-[1.3rem] h-[1.5rem]" />
       </div>
 
       {/* Overlay and Form */}
