@@ -242,8 +242,15 @@ function Home() {
           className="text-center text-[#545454] font-medium font-title
                     w-[20.74813rem] leading-[0.94181rem] tracking-[0.00725rem] text-[0.72313rem]
                     sm:w-[24.95281rem] sm:text-[0.8556rem] sm:leading-[130.238%] sm:tracking-[0.00775rem]
-                    md:w-[52.7315rem] md:h-[14.49075rem] md:leading-[1.50738rem] md:tracking-[0.01156rem md:text-[1.15744rem]
-                    xl:w-[59.32294rem] xl:h-[16.30206rem] xl:leading-[1.69581rem ] xl:tracking-[0.013rem] xl:text-[1.30206rem]"
+                    lg:leading-[130.28%]
+                    md:h-[14.49075rem]   mac:h-[14.49075rem] lap:h-[15.46431rem] xl:h-[16.30206rem] 2xl:h-[17.38888rem] 3xl:h-[21.73613rem]
+                    lg:w-[42.18519rem]
+                    
+                    mac:w-[52.7315rem]
+                    lap:w-[56.27438rem]  xl:w-[59.32294rem]  2xl:w-[63.27775rem]  3xl:w-[79.09725rem] 
+                    lg:tracking-[clamp(0.00925rem,1.5vw,0.01738rem)] 
+                    lg:text-[clamp(0.92594rem,1.5vw,1.73613rem)]
+                    "
         >
           Our ideal customer personas are small to medium-sized business owners,
           marketing managers, and ad moguls looking to make their brand be seen.
