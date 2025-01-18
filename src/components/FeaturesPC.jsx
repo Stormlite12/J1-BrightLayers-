@@ -63,18 +63,18 @@ const FeaturesPC = () => {
         </svg>
         </div>
         
-        <div className="flex flex-row ">
+        <div className="flex flex-row w-[14.30556rem] h-[6.20369rem] -ml-2">
           {/* Know About Us section*/}
-        <div className="flex flex-row items-center justify-center -mt-0.5">
+        <div className="flex flex-row items-center justify-center -mt-0.5 ">
             {/* svg and "who are you" section */}
             <div className="flex flex-col items-center justify-center space-y-2.5 mr-3">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[2.22225rem] h-[2.22225rem]">
+            <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[2.22225rem] h-[2.22225rem] -ml-6">
                     <path d="M32 42V38C32 35.8783 31.1571 33.8434 29.6569 32.3431C28.1566 30.8429 26.1217 30 24 30H12C9.87827 30 7.84344 30.8429 6.34315 32.3431C4.84285 33.8434 4 35.8783 4 38V42" stroke="#F97316" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M18 22C22.4183 22 26 18.4183 26 14C26 9.58172 22.4183 6 18 6C13.5817 6 10 9.58172 10 14C10 18.4183 13.5817 22 18 22Z" stroke="#F97316" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M44 42V38C43.9987 36.2275 43.4087 34.5056 42.3227 33.1046C41.2368 31.7037 39.7163 30.7031 38 30.26" stroke="#F97316" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
                     <path d="M32 6.26001C33.7208 6.70061 35.2461 7.70141 36.3353 9.10463C37.4245 10.5078 38.0157 12.2337 38.0157 14.01C38.0157 15.7864 37.4245 17.5122 36.3353 18.9154C35.2461 20.3186 33.7208 21.3194 32 21.76" stroke="#F97316" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
-                <div className="w-[3.33331rem] h-[2.5188rem] text-[#F97316] font-inter text-[0.64813rem] font-medium leading-[0.92594rem] tracking-[0.03244rem]">WHO ARE WE?</div>
+                <div className="w-[3.33331rem] h-[2.5188rem] text-[#F97316] font-inter text-[0.64813rem] font-medium leading-[0.92594rem] tracking-[0.03244rem] -ml-5">WHO ARE WE?</div>
             </div>
         </div>
         <div className="w-[10.86113rem] h-[5.09263rem] text-[#313338] font-pSans text-[2.28831rem] font-semibold leading-[2.70025rem] tracking-[0.02288rem]">
