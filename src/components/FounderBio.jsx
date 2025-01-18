@@ -81,9 +81,11 @@ function FounderBio() {
       >
         <p
           className={`w-auto h-[10.28625rem] text-[#727171] font-title text-[0.69644rem] font-normal leading-[147%] tracking-[0.00694rem]
-                lg:w-[26.66669rem] lg:h-[17.03706rem] lg:text-[clamp(0.88888rem,1.5vw,1.66669rem)] lg:tracking-[0.00888rem] lg:leading-[137%] 
+                lg:w-[26.66669rem] lg:h-[17.03706rem] lg:text-[clamp(0.88888rem,1.3vw,1.66669rem)] lg:tracking-[0.00888rem] lg:leading-[137%] 
                 mac:w-[33.33338rem] mac:h-[21.29631rem] mac:tracking-[0.01113rem] 
-                xl:w-[37.5rem] xl:h-[23.95831rem] xl:tracking-[0.0125rem]`}
+                lap:w-[35.57294rem]
+                xl:w-[37.5rem] xl:h-[23.95831rem] xl:tracking-[0.0125rem]
+                3xl:w-[50.00006rem] 2xl:w-[40rem]`}
         >
           Full time overthinker and part time Founder, Pooja launched The Bright
           Layers in 2019 as a tribute to her experience of working in social
