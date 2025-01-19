@@ -5,7 +5,7 @@ import logo from '../assets/logo.png'
  
 function Footer() {
   return (
-    <div className='bg-[#2C3E50] w-full h-[30.44rem] md:h-[20rem]'>
+    <div className='bg-[#2C3E50] w-full h-[30.44rem] md:h-auto'>
     <div className='flex flex-col md:flex-row w-[80%] mx-auto'>
        
         <div className='flex flex-row space-x-[1.26rem] items-center justify-center mt-[5.86rem]'>
@@ -15,7 +15,13 @@ function Footer() {
                                       lap:w-[6.66994rem] lap:h-[6.66994rem]
                                       xl:w-[7.03125rem] xl:h-[7.03125rem]
                                       2xl:w-[7.5rem] 2xl:h-[7.5rem]' alt="" />
-            <svg xmlns="http://www.w3.org/2000/svg" width="68" height="50" viewBox="0 0 68 50" fill="none">
+            <svg className='lg:w-[4.85913rem] lg:h-[3.52688rem]
+                            mac:w-[6.07388rem] mac:h-[4.40863rem]
+                            lap:w-[6.482rem] lap:h-[4.70481rem]
+                            xl:w-[6.83313rem] xl:h-[4.95994rem]
+                            2xl:w-[7.28869rem] 2xl:h-[5.29038rem]
+                            3xl:w-[9.11088rem] 3xl:h-[6.61288rem]'  
+            xmlns="http://www.w3.org/2000/svg" width="68" height="50" viewBox="0 0 68 50" fill="none">
             <path d="M39.7802 23.7757C40.5563 23.7757 41.3323 23.7842 42.1055 23.7701C42.412 23.7645 42.5413 23.8853 42.5301 24.183C42.4767 25.6943 42.0999 27.0848 40.9611 28.1663C40.1879 28.8966 39.2572 29.2843 38.2 29.4219C37.2075 29.5512 36.2515 29.4528 35.3349 29.0736C33.7238 28.4107 32.7819 27.1775 32.4557 25.4949C32.242 24.3993 32.3208 23.301 32.7847 22.2673C33.5045 20.6577 34.7669 19.7447 36.4961 19.461C37.5505 19.2897 38.5768 19.3964 39.5637 19.7981C40.8065 20.3037 41.7006 21.1633 42.1674 22.4442C42.2742 22.7364 42.1955 22.8178 41.8974 22.8094C41.3126 22.7926 40.7278 22.801 40.1429 22.8066C39.9714 22.8066 39.859 22.7532 39.7577 22.5987C39.2685 21.8684 38.5599 21.5173 37.6939 21.4555C36.7942 21.3908 35.9928 21.6324 35.3771 22.301C34.7332 22.9976 34.5251 23.8432 34.6179 24.7842C34.6714 25.3348 34.8344 25.832 35.155 26.2814C35.8101 27.1972 36.7464 27.4921 37.8092 27.4022C38.8186 27.318 39.5806 26.8123 40.0024 25.8601C40.1486 25.5314 40.1317 25.5005 39.7774 25.4977C38.9789 25.4977 38.1804 25.4893 37.3847 25.5005C37.1288 25.5033 37.0163 25.4218 37.0276 25.155C37.0444 24.8179 37.0472 24.4808 37.0276 24.1437C37.0079 23.8347 37.1428 23.7617 37.424 23.7673C38.2113 23.7814 38.9986 23.7729 39.783 23.7729L39.7802 23.7757Z" fill="white"/>
             <path d="M7.44377 24.2954C8.12701 24.6269 8.56564 25.1269 8.75122 25.8263C9.1561 27.3573 8.30415 28.7309 6.70148 29.1326C6.3219 29.2281 5.93669 29.2815 5.54024 29.2815C4.14844 29.2731 2.75384 29.2702 1.36204 29.2815C1.04994 29.2843 0.959961 29.1804 0.959961 28.8742C0.968396 25.9106 0.968396 22.9471 0.959961 19.9835C0.959961 19.6633 1.07805 19.5874 1.37328 19.5902C2.82131 19.6015 4.27216 19.565 5.72019 19.6071C6.75771 19.638 7.68277 19.9919 8.24511 20.9442C8.82151 21.9274 8.66687 23.4274 7.44658 24.2954H7.44377ZM4.43524 27.4837C4.77264 27.4837 5.10724 27.4921 5.44464 27.4837C6.04354 27.4696 6.4906 27.0623 6.55808 26.4837C6.62556 25.9106 6.27691 25.4022 5.6752 25.2926C4.89917 25.1522 4.11189 25.2505 3.33024 25.2421C3.1531 25.2421 3.16434 25.3909 3.16153 25.5145C3.16153 26.0735 3.16716 26.6353 3.15872 27.1943C3.15591 27.4163 3.24588 27.4921 3.45957 27.4865C3.78573 27.4753 4.10908 27.4865 4.43524 27.4865V27.4837ZM4.39025 21.3908C4.07534 21.3908 3.76043 21.3965 3.44833 21.3908C3.25151 21.3852 3.16153 21.4554 3.16434 21.6633C3.17278 22.1914 3.16997 22.7195 3.16434 23.2448C3.16434 23.4274 3.22901 23.5117 3.42021 23.5117C4.02754 23.5061 4.63487 23.5285 5.23939 23.5033C5.88046 23.478 6.31908 22.9948 6.29378 22.3852C6.27129 21.8066 5.82985 21.4021 5.20002 21.3936C4.9301 21.3908 4.66017 21.3936 4.39025 21.3936V21.3908Z" fill="white"/>
             <path d="M13.2428 24.4032C13.2428 22.9537 13.2428 21.5042 13.2428 20.0576C13.2428 19.6025 13.2428 19.5997 13.6814 19.5997C15.0535 19.5997 16.4256 19.5632 17.7949 19.6081C19.288 19.6587 20.5392 20.4312 20.9328 21.9761C21.2843 23.361 20.885 25.0942 19.4004 25.8105C19.2261 25.8948 19.2458 25.9762 19.3329 26.1223C19.87 27.0015 20.3986 27.8864 20.9216 28.7713C21.0031 28.9089 21.1859 29.0662 21.1043 29.2095C21.02 29.3583 20.795 29.2741 20.632 29.2769C20.0696 29.2853 19.5073 29.2713 18.9449 29.2825C18.72 29.2881 18.5822 29.2263 18.4669 29.0128C18.0171 28.187 17.5391 27.378 17.078 26.5577C16.9486 26.3274 16.7855 26.2375 16.51 26.2403C15.5034 26.2515 15.5034 26.2403 15.5034 27.2431C15.5034 27.8162 15.4978 28.3892 15.5034 28.9623C15.5062 29.1898 15.4275 29.2881 15.1913 29.2825C14.6514 29.2713 14.1116 29.2685 13.5717 29.2825C13.2962 29.2909 13.2287 29.1701 13.2315 28.9201C13.24 27.4145 13.2343 25.9088 13.2343 24.406L13.2428 24.4032ZM15.4415 22.934C15.4415 23.3273 15.4415 23.7206 15.4415 24.1138C15.4415 24.2431 15.4472 24.3835 15.6215 24.3779C16.3385 24.3582 17.0611 24.4734 17.7696 24.302C18.4473 24.1391 18.8409 23.5099 18.7706 22.7543C18.7059 22.0604 18.2167 21.5604 17.5194 21.5295C16.9149 21.5042 16.3047 21.5267 15.6974 21.5211C15.509 21.5211 15.4359 21.5997 15.4387 21.7851C15.4443 22.1672 15.4387 22.5492 15.4387 22.9312L15.4415 22.934Z" fill="white"/>
@@ -36,18 +42,18 @@ function Footer() {
 
         <div className='flex flex-row  md:space-x-[10rem] mt-[3.55rem] justify-between items-center md:items-stretch md:text-center md:ml-auto'>
                 <div className="w-[5.29744rem] h-[5.229rem] mac:w-[5.78706rem] lg:w-auto space-y-3 flex flex-col">
-                    <div className="text-orange-500 text-[0.86681rem] lg:text-[clamp(0.73931rem,1.5vw,1.38625rem)] font-bold font-title leading-normal mb-[0.43rem] md:mb-0 md:mt-1">Socials</div>
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Instagram</a>
-                    <a href="https://www.facebook.com/thebrightlayer" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Facebook</a>
-                    <a href="https://x.com/thebrightlayers" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Twitter</a>
-                    <a href="https://www.linkedin.com/company/the-bright-layers/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">LinkedIn</a>
+                    <div className="text-orange-500 text-[0.86681rem] lg:text-[clamp(0.73931rem,1.2vw,1.38625rem)] font-bold font-title leading-normal mb-[0.43rem] md:mb-0 md:mt-1">Socials</div>
+                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.1vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Instagram</a>
+                    <a href="https://www.facebook.com/thebrightlayer" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.1vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Facebook</a>
+                    <a href="https://x.com/thebrightlayers" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.1vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">Twitter</a>
+                    <a href="https://www.linkedin.com/company/the-bright-layers/" target="_blank" rel="noopener noreferrer" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.1vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">LinkedIn</a>
                 </div>
 
 
                 <div className='w-[7.54175rem] lg:w-auto h-auto space-y-3 flex flex-col'>
-                <div className="text-orange-500 text-[0.86681rem] lg:text-[clamp(0.73931rem,1.5vw,1.38625rem)] font-bold font-title leading-normal ">Connect With Us</div>
-                <a href="tel:+919546898080" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">+91 9546898080</a>
-                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=thebrightlayersmedia@gmail.com" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.5vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">brightlayersmail.com</a>
+                <div className="text-orange-500 text-[0.86681rem] lg:text-[clamp(0.73931rem,1.2vw,1.38625rem)] font-bold font-title leading-normal ">Connect With Us</div>
+                <a href="tel:+919546898080" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.1vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">+91 9546898080</a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=thebrightlayersmedia@gmail.com" className="text-white text-[0.743rem] lg:text-[clamp(0.59256rem,1.1vw,1.11113rem)] font-normal font-title leading-normal no-underline hover:underline">brightlayersmail.com</a>
                 </div>
                 
                
@@ -65,15 +71,15 @@ function Footer() {
 
 
        <div className='hidden md:flex flex-row mx-auto w-[95%] mt-[5.5rem] relative '>
-                  <div className='md:absolute lg:left-20 mac:left-24 2xl:left-40 2xl: w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white
-                  md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto lg:w-auto
+                  <div className='md:absolute bottom-3  lg:left-20 mac:left-24 2xl:left-32 3xl:left-36 w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white
+                  lg:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto lg:w-auto
                   xl:w-[14.07406rem]'>
                    Copyright @TheBrightLayers
                   </div>  
-                  <div className='md:absolute md:bottom-0 md:right-16 w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto font-normal leading-normal font-title items-center text-white'>
+                  <div className='md:absolute bottom-3 md:right-4 mac:right-24 2xl:right-12 w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto font-normal leading-normal font-title items-center text-white'>
                   Legal
                   </div>
-                  <div className='md:absolute md:bottom-0 md:right-0 w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto font-normal leading-normal font-title items-center text-white'>
+                  <div className='md:absolute bottom-3 md:right-10 mac:right-8 2xl:right-0 text-right w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto font-normal leading-normal font-title items-center text-white'>
                   Site Map
                   </div>
         </div>
