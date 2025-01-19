@@ -64,10 +64,10 @@ function Footer() {
        
 
 
-       <div className='hidden md:flex flex-row mx-auto w-[95%] mt-[5.8rem]  relative '>
-                  <div className='md:absolute md:bottom-0 md:left-40 w-[9.69694rem] h-[5.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white
+       <div className='hidden md:flex flex-row mx-auto w-[95%] mt-[5.5rem] relative '>
+                  <div className='md:absolute lg:left-20 mac:left-24 2xl:left-40 2xl: w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] font-normal leading-normal font-title items-center text-white
                   md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto lg:w-auto
-                  xl:w-[14.07406rem] xl:'>
+                  xl:w-[14.07406rem]'>
                    Copyright @TheBrightLayers
                   </div>  
                   <div className='md:absolute md:bottom-0 md:right-16 w-[9.69694rem] h-[1.53575rem] text-[0.44675rem] md:text-[clamp(0.5185rem,1.1vw,0.97225rem)] lg:h-auto font-normal leading-normal font-title items-center text-white'>

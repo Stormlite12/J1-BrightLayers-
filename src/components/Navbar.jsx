@@ -49,9 +49,10 @@ const Navbar = () => {
               </HashLink>
               
               <NavLink to="/letstalk"
-                  className="flex items-center justify-center w-[110px] h-[30px] text-[clamp(0.66669rem,1.5vw,1.25rem)] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title  shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border"
+                  
               >
-                lets talk
+                <h1 className="flex items-center justify-center w-[6.875rem] h-[1.875rem] text-[clamp(0.66669rem,1.5vw,1.25rem)] text-white bg-[#2c3e50] rounded-[5px] text-lg font-medium font-title  shadow-[0px_4px_8.1px_rgba(0,0,0,0.25)] border">lets talk</h1>
+                
               </NavLink>
   
             </div>
