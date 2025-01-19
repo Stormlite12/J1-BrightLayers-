@@ -8,7 +8,7 @@ function PeopleSaying() {
     <div className="mt-[10.84rem] md:mt-[12.15rem] mac:mt-[15.19rem] xl:mt-[17.08rem] flex flex-col w-full mx-auto">
     <div className="flex justify-center w-full max-h-[1.19069rem] mx-auto
                     md:max-h-[1.68038rem]">
-      <div className="text-[#313338] text-center font-pSans text-[1.02056rem] md:text-[1.71294rem] font-semibold leading-[2.02131rem] tracking-[0.01713rem]">
+      <div className="text-[#313338] text-center font-pSans text-[1.02056rem] md:text-[clamp(1.35606rem,1.5vw,2.54263rem)] font-semibold leading-[2.02131rem] tracking-[0.01713rem]">
         What Are People Saying
       </div>
     </div>
