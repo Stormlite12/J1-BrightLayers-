@@ -46,7 +46,7 @@ export const AnimatedLogo = () => {
 
   return (
     <div ref={ref}>
-      <div className={`relative md:block flex justify-center ${isIntersecting ? 'animate' : ''}`}>
+      <div className={`relative lg:block flex justify-center ${isIntersecting ? 'animate' : ''}`}>
         <svg
           width="282"
           height="22"

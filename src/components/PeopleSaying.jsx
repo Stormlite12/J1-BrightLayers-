@@ -13,16 +13,16 @@ function PeopleSaying() {
       </div>
     </div>
     <div className="w-auto h-auto mt-[2.08rem] md:mt-[6.42rem] xl:mt-[4.72rem] mx-auto lg:w-[90%] ">
-      <div className="flex flex-row space-x-[.4rem] md:space-x-[5rem] justify-evenly md:justify-between">
+      <div className="flex flex-row space-x-[.4rem] md:space-x-[5rem] 3xl:space-x-48 3xl:justify-center justify-evenly md:justify-between">
         <img
           src={image26}
           alt="eurekaLogo"
-          className="w-[30%] md:w-[20%] h-auto object-contain"
+          className="w-[30%] md:w-[20%] 3xl:w-[15%] h-auto object-contain"
         />
         <img
           src={image25}
           alt="thamesLogo"
-          className="w-[30%] md:w-auto h-auto object-contain"
+          className="w-[30%] md:w-auto 3xl:w-auto h-auto object-contain"
         />
         <img
           src={image27}

@@ -203,7 +203,7 @@ function Home() {
         <div className=" " >
         <div className="w-[70%] mx-auto lg:mx-0 h-[3.98444rem] text-center text-[#303338] text-[1.23225rem] font-pSans font-semibold leading-[1.69631rem] tracking-[0.01438rem] 
             sm:text-[1.4rem]
-            md:text-left
+            lg:text-left
             lg:w-[22.37038rem] lg:h-[5.07406rem] lg:text-[1.83069rem] lg:tracking-[0.01831rem] 
             mac:w-[25.46294rem] mac:h-[6.34263rem] mac:text-[2.28831rem] mac:tracking-[0.02288rem] 
             lap:w-[27.17375rem] lap:h-[6.76875rem] lap:text-[2.44206rem] lap:tracking-[0.02444rem] 
@@ -240,8 +240,8 @@ function Home() {
       <div className="w-full flex justify-center mt-[3.08rem]">
         <div
           className="text-center text-[#545454] font-medium font-title
-                    w-[20.74813rem] leading-[0.94181rem] tracking-[0.00725rem] text-[0.72313rem]
-                    sm:w-[24.95281rem] sm:text-[0.8556rem] sm:leading-[130.238%] sm:tracking-[0.00775rem]
+                    max-w-[19.98319rem] leading-[0.94181rem] tracking-[0.00694rem] text-[0.69644rem]
+                    sm:max-w-[85%] sm:text-[0.77556rem] sm:leading-[130.238%] sm:tracking-[0.00775rem]
                     lg:leading-[130.28%]
                     md:h-[14.49075rem]   mac:h-[14.49075rem] lap:h-[15.46431rem] xl:h-[16.30206rem] 2xl:h-[17.38888rem] 3xl:h-[21.73613rem]
                     lg:w-[42.18519rem]
@@ -287,7 +287,7 @@ function Home() {
 
 
         <div id="blog"></div>
-        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto lg:max-w-[90%] mac:max-w-[88%] lap:max-w-[85%] 3xl:max-w-[78%] " >
+        <div className="md:mt-[10.26rem] mac:mt-[12.5rem] xl:mt-[14.06rem] mx-auto max-w-[90%] lg:max-w-[90%] mac:max-w-[88%] lap:max-w-[85%] 3xl:max-w-[78%] " >
           <BlogSpot />
         </div>
       </div>
